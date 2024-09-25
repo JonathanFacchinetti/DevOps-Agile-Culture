@@ -77,21 +77,21 @@ DevSecOps é uma extensão da cultura DevOps que integra segurança no ciclo de 
 
 ### Objetivos principais do DevSecOps:
 
-* *Automatizar processos de segurança*: Assim como o DevOps automatiza o desenvolvimento e as operações, o DevSecOps promove a automação de testes de segurança, verificações de conformidade e detecção de vulnerabilidades.
-* *Incorporar segurança no ciclo de desenvolvimento*: A segurança não deve ser um "gargalo" no final do ciclo. Ferramentas de segurança são integradas ao pipeline de CI/CD (Integração e Entrega Contínua), permitindo testes contínuos à medida que o código é desenvolvido, testado e lançado.
-* *Colaboração entre equipes de segurança, desenvolvimento e operações*: Em vez de equipes de segurança isoladas, todos os membros do time têm a responsabilidade de identificar e mitigar vulnerabilidades de forma contínua.
+- **Automatizar processos de segurança**: Assim como o DevOps automatiza o desenvolvimento e as operações, o DevSecOps promove a automação de testes de segurança, verificações de conformidade e detecção de vulnerabilidades.
+- **Incorporar segurança no ciclo de desenvolvimento**: A segurança não deve ser um "gargalo" no final do ciclo. Ferramentas de segurança são integradas ao pipeline de CI/CD (Integração e Entrega Contínua), permitindo testes contínuos à medida que o código é desenvolvido, testado e lançado.
+- **Colaboração entre equipes de segurança, desenvolvimento e operações**: Em vez de equipes de segurança isoladas, todos os membros do time têm a responsabilidade de identificar e mitigar vulnerabilidades de forma contínua.
 
 ### Principais práticas do DevSecOps:
 
-* Análise de vulnerabilidades em tempo real durante o desenvolvimento, utilizando ferramentas de análise estática de código (SAST) e análise dinâmica de segurança (DAST).
-* Testes de segurança automatizados no pipeline de CI/CD.
-* Verificação de dependências de terceiros para garantir que bibliotecas e frameworks externos estejam atualizados e sem vulnerabilidades.
-* Gestão de patches e atualizações contínuas para lidar com novas vulnerabilidades descobertas.
-* Monitoramento e auditoria contínua de ambientes de produção para detectar e responder rapidamente a incidentes de segurança.
+- Análise de vulnerabilidades em tempo real durante o desenvolvimento, utilizando ferramentas de análise estática de código (SAST) e análise dinâmica de segurança (DAST).
+- Testes de segurança automatizados no pipeline de CI/CD.
+- Verificação de dependências de terceiros para garantir que bibliotecas e frameworks externos estejam atualizados e sem vulnerabilidades.
+- Gestão de patches e atualizações contínuas para lidar com novas vulnerabilidades descobertas.
+- Monitoramento e auditoria contínua de ambientes de produção para detectar e responder rapidamente a incidentes de segurança.
 
 ### Ferramentas comuns no DevSecOps:
 
-* *Snyk, **SonarQube, **OWASP Dependency-Check* (para verificação de dependências vulneráveis).
-* *Aqua Security, **Twistlock* (para proteger contêineres e orquestrações como Kubernetes).
-* *HashiCorp Vault, **AWS Secrets Manager* (para gerenciamento seguro de credenciais e dados sensíveis).
+- **Snyk**, **SonarQube**, **OWASP Dependency-Check** (para verificação de dependências vulneráveis).
+- **Aqua Security**, **Twistlock** (para proteger contêineres e orquestrações como Kubernetes).
+- **HashiCorp Vault**, **AWS Secrets Manager** (para gerenciamento seguro de credenciais e dados sensíveis).
 
