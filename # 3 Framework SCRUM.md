@@ -174,3 +174,73 @@ Seguir esses princípios ajudará a implementar o método Kanban de forma eficaz
 
 Para o sucesso da implementação do método Kanban, existem **6 práticas** essenciais. Sem elas, podemos afirmar que ainda não estamos utilizando o Kanban de forma completa. As práticas são:
 
+## Visualizar o fluxo de trabalho
+
+Ao utilizar o quadro Kanban, cria-se um modelo visual do fluxo de trabalho, permitindo identificar de forma clara o que está sendo feito pela equipe. Com o trabalho visível, é possível detectar problemas e bloqueios, facilitando ações corretivas, aumentando a comunicação, a transparência e a visibilidade de todo o processo.
+
+## Limitar o trabalho em progresso
+
+O conceito de **limitar o trabalho em progresso** é essencial no Kanban, com a sigla WIP (**Work in Progress**) sendo amplamente utilizada. Ao limitar o WIP, o ritmo da equipe se torna mais equilibrado, evitando que ela se comprometa com um volume excessivo de trabalho simultaneamente. Sem essa limitação, o time corre o risco de trabalhar em um sistema de empurrão, o que reduz a eficiência.
+
+## Gerenciar e medir o fluxo
+
+Com o fluxo de trabalho visualizado e o limite de WIP estabelecido, podemos gerenciar o fluxo e, a cada ciclo completado, coletar métricas para identificar problemas e oportunidades de otimização contínua.
+
+## Tornar as políticas de processo explícitas
+
+As políticas do processo de trabalho devem ser claras e compreendidas por todos os envolvidos. Para isso, é fundamental tornar essas políticas explícitas. Só é possível melhorar algo quando todos têm o entendimento necessário para implementá-lo.
+
+## Implementar ciclos de feedback
+
+A evolução contínua do processo de trabalho requer **ciclos de feedback**, os quais podem ser promovidos por meio de cerimônias específicas (como retrospectivas). Esses ciclos retroalimentam os sistemas, permitindo que o time se adapte às mudanças. Além disso, é possível verificar se a funcionalidade entregue atende aos padrões de qualidade esperados ao final de cada ciclo.
+
+## Melhorar colaborativamente
+
+Mesmo com todas as práticas anteriores implementadas, a melhoria contínua pode não estar garantida. O método Kanban sugere o uso do **Kaizen** para promover mudanças de forma colaborativa, contínua, incremental e evolutiva, garantindo que o processo esteja sempre em melhoria constante.
+
+## Elementos do Sistema
+
+### COLUNAS DO KANBAN
+
+As fases de trabalho no quadro Kanban são representadas por colunas, e quanto mais à direita uma coluna estiver, mais valor e tempo foram investidos naquela atividade. Na comunidade ágil, há debates sobre se um item de trabalho pode ou não voltar colunas. Suponha que uma atividade esteja na fase de testes e, ao identificar um erro, ajustes de desenvolvimento sejam necessários. Um lado da comunidade defende que o item pode voltar para a coluna de desenvolvimento para refletir melhor a situação real do trabalho. O outro lado argumenta que o item deve permanecer na coluna de testes, pois, mesmo com correções de desenvolvimento, a fase principal de desenvolvimento já passou. Além disso, mover o item de volta poderia gerar complicações no limite de WIP da coluna anterior, caso esta já esteja na capacidade máxima. Vale a pena experimentar ambos os modelos e ver qual se adapta melhor ao fluxo de trabalho.
+
+### RAIAS
+
+Além das colunas verticais que indicam o estágio do processo, podemos inserir raias horizontais, utilizadas para destacar visualmente diferentes tipos de atividades. Um exemplo comum é a raia para atividades urgentes, chamada de *fast-lane* ou *expedite*.
+
+### CARTÕES
+
+As atividades de trabalho são representadas por cartões, geralmente post-its em quadros físicos. Neles, são anotadas as atividades, os responsáveis, impedimentos, entre outras informações relevantes.
+
+### LIMITE DE WIP
+
+O limite de trabalho em progresso (*WIP*) é um elemento fundamental para a organização do fluxo de trabalho. No mundo ideal, o limite de WIP seria o mesmo em todas as etapas do processo. Imagine o fluxo de trabalho como um tubo de água, onde o limite de WIP representa a espessura desse tubo: se o tubo for uniforme, a água (ou trabalho) fluirá de forma constante. No entanto, se houver variações na espessura, a água pode fluir mais rápido ou mais devagar em determinados pontos. O mesmo vale para o fluxo de trabalho. Mesmo que os limites de WIP não sejam iguais em todas as etapas, o fluxo pode se tornar constante se ajustado conforme o número de profissionais ou o tempo necessário para cada atividade. O ideal é observar o fluxo e ajustar o WIP de acordo.
+
+### POLÍTICAS EXPLÍCITAS
+
+As regras e fluxos de trabalho devem estar visíveis para evitar dúvidas sobre o processo. Essas políticas podem estar no quadro Kanban, em um painel da equipe, entre outros locais. O importante é que estejam acessíveis e sejam respeitadas. Exemplos de políticas incluem: só podemos trabalhar com dois itens urgentes por vez; os limites de WIP das colunas devem ser respeitados; apenas o responsável pelos testes pode mover uma atividade para "pronto".
+
+## Vantagens referente ao Scrum
+
+### Scrum vs Kanban: Concorrência entre Metodologias Ágeis
+
+Ao abordar o tema da concorrência entre Metodologias Ágeis, há uma discussão recorrente entre Scrum e Kanban. No entanto, essa comparação pode ser considerada injusta, pois o Scrum é um framework mais prescritivo (com regras e normas claras, dizendo "como fazer"), enquanto o Kanban é um método mais flexível. Contudo, ao aplicar o Kanban no desenvolvimento de software, algumas vantagens sobre o Scrum se tornam evidentes:
+
+### Múltiplos Focos
+
+Se uma equipe precisa manter um produto legado e, ao mesmo tempo, desenvolver novas funcionalidades para o mesmo produto, o Scrum exige a criação de dois times: um para manutenção e outro para o desenvolvimento. Isso acontece porque o Scrum trabalha com *time boxes* e uma quantidade de trabalho predefinida em um determinado período, o que torna difícil conciliar ambas as atividades sem impactar os acordos de entrega. Já no Kanban, é possível realizar ambas as tarefas com o mesmo time, já que o trabalho é mais "just-in-time" e não há a rigidez de um *time box*.
+
+### Entregas Constantes
+
+Tanto no Scrum quanto no Kanban, as entregas são constantes. No entanto, o Kanban permite ciclos menores de entrega, tornando-as ainda mais frequentes. A estrutura de *sprints* e *time boxes* do Scrum pode dificultar a redução desses ciclos, enquanto no Kanban há maior flexibilidade para entregas contínuas.
+
+### Mais Evolutivo
+
+Quando o Scrum é implementado, algumas mudanças iniciais no processo atual são necessárias. Além disso, o Scrum exige que o time seja pequeno, o que pode demandar uma reestruturação dos profissionais envolvidos. Em contrapartida, o Kanban enfatiza o início com o que se tem, sem mudanças drásticas, permitindo até mesmo equipes maiores. As mudanças no Kanban ocorrem de forma incremental e evolutiva, sem a necessidade de reestruturações imediatas.
+
+---
+
+No fim, a escolha entre Scrum e Kanban depende das necessidades e particularidades de cada equipe e projeto. O Kanban pode ser mais adequado para times que precisam de flexibilidade e querem evoluir suas práticas de forma gradual, enquanto o Scrum pode ser preferível para equipes que se beneficiam de um framework mais estruturado.
+
+## Caso de uso
+O método Kanban é recomendado para times que já conhecem a cultura ágil e precisam trabalhar em escopos de trabalho variados (manutenção, novas funcionalidades, operação). Muitos associam o Kanban a uma evolução do Scrum. Apesar de ser mais leve e menos prescritivo, o Kanban tem maiores chances de sucesso quando completado com as práticas do Scrum, como as cerimônias, papéis e responsabilidades, desenvolvimento incremental do produto, trabalho em equipe, priorização de trabalho de acordo com maior valor para o cliente ou produto, entre outros. A junção do framework Scrum e do método Kanban está sendo denominada no mercado como Scrumban, e seja qual for a metodologia de desenvolvimento ágil que você for adotar, escolha aquela que mais se adapte ao seu projeto, pro- duto, pessoas e organização.
