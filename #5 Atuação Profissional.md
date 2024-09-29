@@ -1,4 +1,4 @@
-## Atuação Profissional
+# Atuação Profissional
 
 A ampla adoção de diversas metodologias ágeis no mercado de trabalho atual introduziu o conceito de times multidisciplinares, criando a necessidade de novos papéis e responsabilidades dentro das organizações. Papéis como **Scrum Master** e **Product Owner**, implementados pelo framework Scrum, são exemplos dessas funções. Um time de desenvolvimento normalmente é composto pelos seguintes profissionais:
 
