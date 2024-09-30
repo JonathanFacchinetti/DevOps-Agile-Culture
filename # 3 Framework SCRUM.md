@@ -4,7 +4,36 @@ O Scrum é um framework simples para gerenciar projetos complexos, através de u
 
 O Scrum não restringe sua aplicação apenas para a área de TI, ele pode ser aplicado em projetos diversos que possuem complexidade. A abordagem incremental e interativa é utilizada fortemente no Scrum, onde a cada determinado espaço de tempo, uma funcionalidade do produto que faz parte de um todo é entregue. Vamos aprender sobre os pilares do Scrum para compreender melhor suas características.
 
-## Pilares
+## Índice
+
+1. [Pilares do Scrum](#pilares-do-scrum)
+2. [Papéis Fundamentais](#papéis-fundamentais)
+    - [Product Owner (PO)](#product-owner-po)
+    - [Scrum Master (SM)](#scrum-master-sm)
+    - [Time Scrum](#time-scrum)
+3. [Valores do Scrum](#valores-do-scrum)
+4. [Princípios do Scrum](#princípios-do-scrum)
+5. [Dinâmicas, Cerimônias e Artefatos](#dinâmicas-cerimônias-e-artefatos)
+    - [Product Backlog e User Stories](#1-product-backlog-e-user-stories)
+    - [Sprints](#2-sprints)
+    - [Sprint Planning](#3-sprint-planning)
+        - [Fases de Planejamento](#fases-de-planejamento)
+    - [Daily Scrum](#4-daily-scrum)
+    - [Definition of Done (DoD)](#5-definition-of-done-dod)
+    - [Sprint Review](#6-sprint-review)
+    - [Sprint Retrospective](#7-sprint-retrospective)
+6. [Resumo sobre Scrum](#resumo-sobre-scrum)
+7. [Caso de Uso](#caso-de-uso)
+8. [Kanban](#kanban)
+    - [Quadro com Fluxo de Trabalho](#um-quadro-com-fluxo-de-trabalho)
+    - [Sistema Empurrado vs. Sistema Puxado](#sistema-empurrado-vs-sistema-puxado)
+    - [Princípios do Kanban](#princípios-do-kanban)
+    - [Práticas do Kanban](#práticas-do-kanban)
+    - [Elementos do Sistema Kanban](#elementos-do-sistema-kanban)
+    - [Vantagens do Kanban em Relação ao Scrum](#vantagens-do-kanban-em-relação-ao-scrum)
+9. [Conclusão](#conclusão)
+
+## Pilares do Scrum
 
 - **Transparência**: Todos possuem o conhecimento dos requisitos, processos e do andamento do projeto.
 - **Inspeção**: Durante todo o tempo é inspecionado o que está sendo feito, através de reuniões diárias ou no momento de uma revisão.
@@ -14,35 +43,38 @@ O Scrum não restringe sua aplicação apenas para a área de TI, ele pode ser a
 
 Para a realização do Scrum, são necessários **3 papéis fundamentais**. Sem esses papéis, não temos o Scrum:
 
-1. **Product Owner (PO)**
-    - **Responsabilidades**:
-        - Decidir quais recursos e funcionalidades o produto deve ter.
-        - Definir a ordem de prioridade das funcionalidades.
-        - Manter e comunicar uma visão clara do que o Time Scrum está trabalhando no produto.
-        - Servir como ponto de intersecção entre a área de negócios e a área de desenvolvimento.
-    - **Importância**:
-        - Autonomia para tomar decisões sobre o produto.
-        - Evita a criação de um "PO Proxy", garantindo que o PO saiba exatamente o que deve ser feito.
+### Product Owner (PO)
 
-2. **Scrum Master (SM)**
-    - **Responsabilidades**:
-        - Ajudar os envolvidos a entender a cultura ágil e os princípios do Scrum.
-        - Facilitar a resolução de conflitos e remoção de impedimentos.
-        - Proteger o time contra interferências externas.
-        - Promover o desenvolvimento da equipe para que se torne independente.
-    - **Importância**:
-        - Atua como líder do processo e facilitador.
-        - Evita a confusão entre o papel de Scrum Master e o de chefe.
+- **Responsabilidades**:
+    - Decidir quais recursos e funcionalidades o produto deve ter.
+    - Definir a ordem de prioridade das funcionalidades.
+    - Manter e comunicar uma visão clara do que o Time Scrum está trabalhando no produto.
+    - Servir como ponto de intersecção entre a área de negócios e a área de desenvolvimento.
+- **Importância**:
+    - Autonomia para tomar decisões sobre o produto.
+    - Evita a criação de um "PO Proxy", garantindo que o PO saiba exatamente o que deve ser feito.
 
-3. **Time Scrum**
-    - **Composição**:
-        - Equipe de desenvolvimento com diversos membros e habilidades necessárias.
-    - **Responsabilidades**:
-        - Decidir como alcançar o objetivo do desenvolvimento.
-        - Trabalhar de forma auto-organizada e multidisciplinar.
-        - Manter o time entre 4 e 8 pessoas para garantir eficiência.
-    - **Importância**:
-        - Promove a colaboração e a entrega contínua de valor.
+### Scrum Master (SM)
+
+- **Responsabilidades**:
+    - Ajudar os envolvidos a entender a cultura ágil e os princípios do Scrum.
+    - Facilitar a resolução de conflitos e remoção de impedimentos.
+    - Proteger o time contra interferências externas.
+    - Promover o desenvolvimento da equipe para que se torne independente.
+- **Importância**:
+    - Atua como líder do processo e facilitador.
+    - Evita a confusão entre o papel de Scrum Master e o de chefe.
+
+### Time Scrum
+
+- **Composição**:
+    - Equipe de desenvolvimento com diversos membros e habilidades necessárias.
+- **Responsabilidades**:
+    - Decidir como alcançar o objetivo do desenvolvimento.
+    - Trabalhar de forma auto-organizada e multidisciplinar.
+    - Manter o time entre 4 e 8 pessoas para garantir eficiência.
+- **Importância**:
+    - Promove a colaboração e a entrega contínua de valor.
 
 ## Valores do Scrum
 
@@ -199,9 +231,11 @@ Por fim, a cerimônia de **Sprint Retrospective** é realizada. Enquanto o objet
 
 O framework Scrum é ideal para equipes que desejam adotar a cultura ágil e para projetos que possuem uma janela de entrega constante. Sua metodologia bem estruturada, que abrange todo o processo, oferece um direcionamento claro sobre o que deve ser feito. Além disso, à medida que a equipe amadurece, o Scrum permite adaptações para melhor atender às suas necessidades. O framework utiliza elementos visuais, como o quadro Kanban, para gerenciar as atividades, que será abordado posteriormente no método Kanban.
 
-## Um Quadro com Fluxo de Trabalho
+## Kanban
 
 Para iniciar o estudo referente ao método Kanban, é necessário diferenciar a palavra **Kanban** com "K" maiúsculo e kanban com "k" minúsculo. O kanban refere-se à utilização com o fluxo de trabalho, com os respectivos cartões que representam as atividades, sua origem é japonesa e significa literalmente "cartão" ou "sinalização", enquanto o Kanban refere-se ao método de desenvolvimento ágil criado em 2005, influenciado pelo Sistema Toyota de Produção.
+
+### Um Quadro com Fluxo de Trabalho
 
 No modelo corporativo tradicional, a transição de mudanças geralmente ocorre de forma radical dentro de um determinado período de tempo. No entanto, como em qualquer mudança, existe um período de adaptação no qual podem ocorrer possíveis prejuízos até que a nova situação se estabilize e comece a gerar o retorno desejado. Dependendo do nível da mudança proposta, a organização pode não ter uma estrutura adequada para suportá-la e, por isso, optar por reverter a decisão ou, no pior cenário, até mesmo enfrentar a falência. Esse tipo de comportamento organizacional, em que uma mudança radical no status dentro de um período limitado impacta a capacidade da organização, é conhecido como **Kaikaku**.
 
@@ -209,7 +243,7 @@ Para trabalharmos mudanças de forma incremental, sem que o período de adaptaç
 
 Quando falamos sobre metodologias de desenvolvimento ágil, o modelo de **Evolução Kaizen** é altamente aderente e está profundamente enraizado na filosofia dessas metodologias. O método **Kanban** é um ótimo exemplo disso. Ele é composto por um fluxo de valor no qual as etapas de trabalho são mapeadas em um quadro Kanban. As atividades fluem da esquerda para a direita, e cada etapa adiciona uma melhoria de valor ao item. Quando o item chega ao final do quadro, ele estará concluído, entregando valor completo.
 
-### Exemplo de Quadro Kanban
+#### Exemplo de Quadro Kanban
 
 Para desenvolver um software, são necessárias as seguintes etapas:
 1. Levantamento das atividades (**Backlog**)
@@ -224,7 +258,6 @@ O quadro Kanban ficaria assim:
 
 
 No entanto, para realmente trabalharmos de forma eficaz com o método Kanban, apenas o quadro não é suficiente. É necessário incrementá-lo com alguns conceitos fundamentais. Primeiramente, vamos falar sobre o **sistema puxado** e o **sistema empurrado** de trabalho.
-
 
 ### Sistema Empurrado vs. Sistema Puxado
 
@@ -360,6 +393,6 @@ Para o sucesso da implementação do método Kanban, existem **6 práticas** ess
 
 No fim, a escolha entre **Scrum** e **Kanban** depende das necessidades e particularidades de cada equipe e projeto. O Kanban pode ser mais adequado para times que precisam de flexibilidade e querem evoluir suas práticas de forma gradual, enquanto o Scrum pode ser preferível para equipes que se beneficiam de um framework mais estruturado.
 
-## Caso de Uso
+## Conclusão
 
 O método **Kanban** é recomendado para times que já conhecem a cultura ágil e precisam trabalhar em escopos de trabalho variados (manutenção, novas funcionalidades, operação). Muitos associam o Kanban a uma evolução do Scrum. Apesar de ser mais leve e menos prescritivo, o Kanban tem maiores chances de sucesso quando completado com as práticas do Scrum, como cerimônias, papéis e responsabilidades, desenvolvimento incremental do produto, trabalho em equipe, priorização de trabalho de acordo com maior valor para o cliente ou produto, entre outros. A junção do framework Scrum e do método Kanban está sendo denominada no mercado como **Scrumban**. Seja qual for a metodologia de desenvolvimento ágil que você for adotar, escolha aquela que mais se adapte ao seu projeto, produto, pessoas e organização.
