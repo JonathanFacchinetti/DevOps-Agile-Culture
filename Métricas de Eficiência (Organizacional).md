@@ -2,6 +2,30 @@
 
 O trabalho na organização começa desde a hipótese de algo até o atingimento de um objetivo, e no meio do caminho dexistem diversas etapas com diferentes áreas da organização. As métricas de eficiência são o melhor caminho para se determinar se estamos trabalhando da melhor forma e identificar gargalos, solucionando-os em busca da melhoria continua.
 
+## Índice
+1. [Lead Time - Tempo de espera](#lead-time---tempo-de-espera)
+2. [Cycle Time - Tempo do ciclo](#cycle-time---tempo-do-ciclo)
+3. [Waiting Time e Touching Time](#waiting-time-e-touching-time)
+4. [Flow Efficiency - Fluxo de eficiência](#flow-efficiency---fluxo-de-eficiência)
+5. [Working in Progress (WIP) - Trabalho em progresso](#working-in-progress-wip---trabalho-em-progresso)
+6. [Throughput - Vazão](#throughput---vazão)
+7. [Cumulative Flow Diagram (CFD) - Diagrama de Fluxo Cumulativo](#cumulative-flow-diagram-cfd---diagrama-de-fluxo-cumulativo)
+8. [Control Chart - Gráfico de Controle](#control-chart---gráfico-de-controle)
+9. [Métricas de Eficácia (Negócio)](#métricas-de-eficácia-negócio)
+   - 9.1 [ROI (Return on Investment)](#roi-return-on-investment)
+   - 9.2 [NPS (Net Promoter Score)](#nps-net-promoter-score)
+   - 9.3 [Churn](#churn)
+10. [Métricas de Atmosfera (Cultural)](#métricas-de-atmosfera-cultural)
+    - 10.1 [Turnover](#turnover)
+    - 10.2 [Happiness Radar](#happiness-radar)
+11. [Métricas de Qualidade (Técnica)](#métricas-de-qualidade-técnica)
+    - 11.1 [Notificação de Problemas](#notificação-de-problemas)
+    - 11.2 [Cobertura de Testes](#cobertura-de-testes)
+12. [Métricas Tóxicas e de Vaidade](#métricas-tóxicas-e-de-vaidade)
+    - 12.1 [Métricas Tóxicas](#métricas-tóxicas)
+    - 12.2 [Métricas de Vaidade](#métricas-de-vaidade)
+13. [Conclusão](#conclusão)
+
 ## Lead Time - Tempo de espera
 
 Considerado como uma das métricas de eficiência mais importantes, o Lead Time (Tempo de espera) nos traz informações sobre o número de dias (tempo) entre o início e o fim do processo de entrega. Se o objetivo for construir uma ponte, por exemplo, o tempo de dias que decorre desde o início da ideia, passando pela construção até chegar a finalização da ponte é o nosso lead time. No mundo organizacional, o lead time está relacionado ao *time to market*, que é o tempo que um produto leva desde a sua concepção até que ele esteja totalmente disponível para venda ou consumo. Em geral, buscamos ter o menor lead time possível, para assim entregar e obter feedback o quanto antes. Existe uma discussão na comunidade sobre se o lead time se refere apenas ao tempo do trabalho do time de desenvolvimento; no quadro kanban, por exemplo, seria do backlog quando a história fosse criada até a história ser considerada concluída (done). Para não restar dúvidas, é importante definir com a organização o que ela considerada Lead Time
@@ -95,3 +119,241 @@ O **Control Chart** (gráfico de controle) é uma ferramenta amplamente utilizad
 
 Enquanto o **Cumulative Flow Diagram (CFD)** foca em visualizar o acúmulo de itens e o progresso de fases, o **Control Chart** é voltado para monitorar e controlar a variabilidade e estabilidade do tempo de ciclo dos itens no fluxo. O CFD mostra o "quantitativo" (quantos itens), e o Control Chart mostra o "tempo" (quanto tempo para completar cada item).
 
+## MÉTRICAS DE EFICÁCIA (NEGÓCIO)
+É essencial em organizações medir como andam os objetivos e as metas, para, se necessário, tomar al- guma ação o quanto antes. Para isso temos as métricas de eficácia.
+
+### ROI (Return on Investment)
+
+O **Return on Investment (ROI)** é uma métrica financeira usada para medir a eficiência ou rentabilidade de um investimento. O ROI ajuda a avaliar o retorno obtido em relação ao custo do investimento. A fórmula básica é:
+
+\[
+ROI = \frac{Ganho do Investimento - Custo do Investimento}{Custo do Investimento} \times 100
+\]
+
+**Exemplo**:
+Se uma empresa investe R$ 10.000 em uma campanha de marketing e obtém R$ 15.000 em receita, o ROI seria calculado assim:
+
+\[
+ROI = \frac{15.000 - 10.000}{10.000} \times 100 = 50\%
+\]
+
+Um ROI positivo indica que o investimento foi lucrativo, enquanto um ROI negativo significa perda.
+
+---
+
+### NPS (Net Promoter Score)
+
+O **Net Promoter Score (NPS)** é uma métrica utilizada para medir a lealdade e satisfação dos clientes de uma empresa, produto ou serviço. O NPS é baseado em uma única pergunta: "Em uma escala de 0 a 10, qual a probabilidade de você recomendar este produto ou serviço a um amigo ou colega?"
+
+### Cálculo do NPS:
+1. **Promotores** (nota 9-10): Clientes satisfeitos, dispostos a recomendar.
+2. **Neutros** (nota 7-8): Clientes satisfeitos, mas não entusiasmados.
+3. **Detratores** (nota 0-6): Clientes insatisfeitos.
+
+A fórmula do NPS é:
+
+\[
+NPS = \% \text{Promotores} - \% \text{Detratores}
+\]
+
+O resultado varia de -100 a 100. Quanto maior o NPS, melhor é a lealdade e satisfação dos clientes.
+
+---
+
+### Churn
+
+O **Churn** refere-se à taxa de perda de clientes ou assinantes de um serviço em um determinado período de tempo. É uma métrica essencial para empresas de serviços, especialmente as que operam com modelos de assinatura, pois ajuda a identificar o quão bem uma empresa está retendo seus clientes.
+
+### Cálculo do Churn Rate:
+\[
+Churn Rate = \frac{\text{Clientes Perdidos}}{\text{Clientes Totais no Início do Período}} \times 100
+\]
+
+### Exemplo:
+Se uma empresa tem 1.000 clientes no início do mês e perde 50 clientes até o final, o churn seria:
+
+\[
+Churn Rate = \frac{50}{1000} \times 100 = 5\%
+\]
+
+Um churn alto indica que a empresa está perdendo muitos clientes, o que pode ser um sinal de problemas com o produto ou serviço.
+
+
+## Métricas de Atmosfera (Cultural)
+
+### 1. **Turnover**
+
+### O que é Turnover?
+O **Turnover** é a métrica que mede a taxa de rotatividade de funcionários em uma organização. Ele reflete o número de colaboradores que deixam a empresa (seja por decisão própria ou da empresa) em relação ao total de funcionários, durante um período específico.
+
+### Tipos de Turnover:
+- **Turnover Voluntário**: Quando o colaborador decide deixar a empresa por conta própria.
+- **Turnover Involuntário**: Quando a empresa toma a decisão de desligar o colaborador.
+- **Turnover Funcional**: Quando saídas de colaboradores de baixo desempenho beneficiam a empresa.
+- **Turnover Disfuncional**: Quando a empresa perde colaboradores talentosos ou de alto desempenho.
+
+### Fórmula do Turnover:
+\[
+Turnover = \frac{\text{Número de saídas de colaboradores}}{\text{Número total de colaboradores}} \times 100
+\]
+
+### Exemplo:
+Se uma empresa tem 200 funcionários e 20 deles deixaram a organização em um trimestre, o Turnover seria:
+\[
+Turnover = \frac{20}{200} \times 100 = 10\%
+\]
+
+### Interpretação:
+- **Turnover elevado**: Pode indicar problemas de retenção, como insatisfação com a cultura organizacional, falta de oportunidades de crescimento, ou remuneração inadequada.
+- **Turnover baixo**: Sinaliza uma maior estabilidade e retenção dos colaboradores, o que pode ser reflexo de uma boa gestão de pessoas.
+
+---
+
+### 2. **Happiness Radar**
+
+### O que é o Happiness Radar?
+O **Happiness Radar** é uma métrica que visa avaliar o nível de satisfação e bem-estar dos colaboradores em relação ao ambiente de trabalho. Ele envolve a coleta de feedback contínuo dos funcionários sobre diversos aspectos da cultura organizacional, como condições de trabalho, relacionamento com a equipe e a liderança, e equilíbrio entre vida pessoal e profissional.
+
+### Como medir?
+O Happiness Radar geralmente é coletado por meio de pesquisas anônimas, em que os colaboradores avaliam sua satisfação em várias áreas utilizando uma escala numérica (por exemplo, de 1 a 5). As áreas de medição podem incluir:
+- **Condições de trabalho**: Como as ferramentas e o espaço de trabalho contribuem para a produtividade.
+- **Cultura organizacional**: Se os valores da empresa estão alinhados com os valores pessoais dos funcionários.
+- **Relacionamento com colegas e liderança**: Como os funcionários percebem a colaboração e o apoio da equipe e dos gestores.
+- **Desenvolvimento profissional**: Oportunidades de crescimento e aprendizado dentro da empresa.
+- **Equilíbrio vida-trabalho**: Se a carga de trabalho permite uma boa qualidade de vida.
+
+### Interpretação:
+- **Happiness alto**: Indica que os colaboradores estão satisfeitos com o ambiente de trabalho, o que pode melhorar a produtividade e reduzir o turnover.
+- **Happiness baixo**: Pode sugerir que os funcionários estão desmotivados, insatisfeitos com a cultura ou com aspectos relacionados ao trabalho, indicando a necessidade de intervenções.
+
+### Benefícios do Happiness Radar:
+- **Melhoria da Cultura**: Permite que a empresa identifique e ajuste fatores que afetam negativamente o clima organizacional.
+- **Aumento da Produtividade**: Funcionários felizes tendem a ser mais engajados e produtivos.
+- **Redução de Turnover**: A satisfação no trabalho é um fator chave na retenção de talentos.
+
+## Métricas de qualidade (técnica)
+
+## 1. **Notificação de Problemas**
+
+### O que é Notificação de Problemas?
+A **Notificação de Problemas** é uma métrica essencial para monitorar a qualidade de um sistema, representando o número de erros, bugs ou falhas detectadas durante o desenvolvimento, testes ou uso em produção. Ela permite que as equipes identifiquem padrões de falhas e áreas críticas que precisam de correção.
+
+### Classificação de Problemas:
+- **Bugs Funcionais**: Erros que afetam diretamente o funcionamento de uma funcionalidade, impedindo seu uso correto.
+- **Bugs de Interface**: Problemas relacionados à experiência do usuário, como elementos de UI quebrados ou mal alinhados.
+- **Erros de Desempenho**: Falhas que resultam em lentidão, uso excessivo de recursos ou queda no desempenho do sistema.
+- **Erros de Segurança**: Vulnerabilidades que podem expor dados sensíveis ou comprometer a integridade do sistema.
+
+### Métricas Relacionadas à Notificação de Problemas:
+1. **Frequência de Erros**: O número de problemas detectados em um período específico. Uma alta frequência pode indicar uma baixa qualidade do código ou processos de desenvolvimento inadequados.
+   
+   Exemplo:
+   - 30 bugs relatados por sprint indicam um alto volume de problemas a serem resolvidos, exigindo maior controle de qualidade no ciclo de desenvolvimento.
+   
+2. **Tempo Médio de Resolução (Mean Time to Resolution - MTTR)**: O tempo médio necessário para resolver um problema após sua notificação.
+   - Um MTTR elevado pode indicar que o time tem dificuldade em solucionar problemas, seja pela complexidade ou pela falta de recursos.
+
+3. **Reincidência de Bugs**: A quantidade de problemas reabertos após serem considerados resolvidos.
+   - Isso pode apontar falhas no processo de validação, onde os testes ou as correções não foram adequados.
+   
+4. **Problemas por Módulo**: A distribuição dos erros por parte do sistema pode mostrar onde estão as áreas mais críticas, indicando módulos que necessitam de refatoração ou maior atenção nos testes.
+
+### Importância da Notificação de Problemas:
+- **Feedback Contínuo**: A análise dos problemas reportados oferece uma visão clara de onde os esforços de melhoria devem ser focados, permitindo priorizar correções e evitar regressões.
+- **Prevenção de Impactos Maiores**: Quanto mais cedo um problema é identificado e notificado, menor é o impacto que ele pode causar em produção.
+- **Qualidade do Produto Final**: Uma boa estratégia de notificação de problemas permite lançar um produto com menos bugs e maior confiança do usuário final.
+
+---
+
+## 2. **Cobertura de Testes**
+
+### O que é Cobertura de Testes?
+A **Cobertura de Testes** mede a extensão com que o código-fonte é testado. Quanto maior a cobertura, maior a probabilidade de que erros sejam detectados antes que o código seja lançado em produção. Ela não é uma métrica que garante ausência de bugs, mas sim um indicativo de que uma porção significativa do código está sendo verificada.
+
+### Tipos de Cobertura de Testes:
+1. **Cobertura de Linhas de Código**:
+   - Mede a porcentagem de linhas de código que são executadas durante a execução dos testes automatizados.
+   - Exemplo: Se um projeto tem 10.000 linhas de código e 7.000 são cobertas por testes, a cobertura é de 70%.
+   
+2. **Cobertura de Ramas (Branch Coverage)**:
+   - Verifica se todas as ramificações lógicas (condicionais como `if` e `else`) foram testadas.
+   - Isso é essencial para garantir que todas as condições do código sejam validadas, não apenas os caminhos mais comuns.
+
+3. **Cobertura de Funções/Métodos**:
+   - Mede a porcentagem de funções ou métodos que foram testados em relação ao total existente no código.
+   - Exemplo: Se 80 de 100 métodos foram testados, a cobertura de métodos é de 80%.
+
+4. **Cobertura de Condições**:
+   - Verifica se todas as condições dentro de um bloco de código foram testadas, como múltiplas expressões em uma cláusula `if`.
+
+### Boas Práticas de Cobertura de Testes:
+- **Cobertura Relevante**: Focar na cobertura de testes que realmente validem as regras de negócio e comportamentos críticos, ao invés de tentar atingir 100% de cobertura com testes superficiais.
+  
+- **Testes Automatizados no Pipeline CI/CD**: Integrar a execução de testes automatizados nos pipelines de integração contínua (CI/CD) para garantir que todas as alterações no código sejam validadas antes de entrar em produção.
+
+- **Testes de Unidade e Integração**:
+   - **Testes Unitários**: Garantem que pequenas partes do código, como funções ou métodos individuais, estão funcionando corretamente de forma isolada.
+   - **Testes de Integração**: Validam a interação entre diferentes módulos ou sistemas, garantindo que eles funcionam corretamente quando integrados.
+
+### Métricas de Cobertura de Testes:
+1. **Cobertura Geral**:
+   - Indicador percentual que mostra quanto do código é coberto por qualquer tipo de teste (unitário, integração, funcional).
+   - Exemplo: Uma cobertura geral de 85% sugere que a maioria do código é testada, mas há ainda uma pequena parte não coberta que pode esconder erros.
+
+2. **Cobertura por Módulo/Componente**:
+   - Ao segmentar a cobertura por diferentes partes do sistema (módulos, serviços, APIs), é possível identificar áreas negligenciadas nos testes.
+   
+3. **Testes de Regressão**:
+   - Ao garantir uma boa cobertura de testes, você reduz a chance de regressões (novos bugs introduzidos por mudanças no código).
+
+### Benefícios da Alta Cobertura de Testes:
+- **Maior Confiabilidade**: Uma alta cobertura diminui a chance de bugs não detectados passarem para produção, aumentando a confiança na entrega do software.
+- **Facilita a Manutenção**: A equipe pode fazer mudanças com maior segurança, sabendo que os testes cobrem a maioria dos cenários críticos.
+- **Redução de Custos**: Ao detectar erros mais cedo no ciclo de desenvolvimento, evita-se o custo elevado de corrigir bugs em produção.
+
+### Métricas tóxicas e de vaidade
+
+## Métricas Tóxicas
+
+Ao trabalhar com métricas, é essencial tomar cuidado com as chamadas **métricas tóxicas**. Essas métricas têm como objetivo medir o desempenho individual das pessoas ou comparar a performance de diferentes times, o que, inevitavelmente, gera uma **competição não saudável** e **diminui a colaboração** dentro das equipes.
+
+### Exemplos de Métricas Tóxicas:
+
+- **Tarefas entregues por pessoa**: Medir quantas tarefas uma pessoa finalizou pode criar incentivos para entregar quantidade ao invés de qualidade. Isso também pode desestimular a troca de conhecimento, já que a pessoa buscará entregar mais tarefas sozinha.
+  
+- **Quantidade de bugs corrigidos**: Similar à métrica de tarefas entregues, medir a quantidade de bugs corrigidos individualmente pode fazer com que as pessoas se concentrem em números, sem se preocupar com a complexidade dos problemas que estão sendo resolvidos.
+
+- **“Funcionário do Mês”**: A ideia de reconhecer um único indivíduo como o “melhor” gera uma competitividade direta entre os membros da equipe. Isso pode diminuir a colaboração, já que cada pessoa busca destacar-se e ser premiada.
+
+Essas métricas acabam estimulando a **competitividade entre as pessoas**, que passarão a querer bater metas e ser melhores que os outros. O resultado disso é uma **redução significativa da colaboração**, pois os colegas de trabalho passam a ser vistos como concorrentes.
+
+### Comparação Entre Times
+
+Outro erro comum é utilizar as métricas de um time para **comparar com outro time**. Na maioria dos casos, os times têm contextos completamente diferentes, como projetos distintos, complexidades variadas ou objetivos diferentes. Cada time possui suas próprias **características específicas**, e ao compará-los, novamente, gera-se mais competição e menos colaboração entre equipes.
+
+---
+
+## Métricas de Vaidade
+
+As **métricas de vaidade** são outro tipo de métrica perigosa, pois apresentam números impressionantes que podem ocultar informações mais relevantes ou verdadeiras. Elas criam uma falsa sensação de sucesso e, frequentemente, não levam a ações que realmente melhorem o produto ou processo.
+
+### Exemplos de Métricas de Vaidade:
+
+- **Número de downloads de um aplicativo**: Pode parecer uma métrica de sucesso, mas não indica se o app está sendo bem utilizado ou apreciado. Um aplicativo pode ter milhares de downloads e, ao mesmo tempo, **avaliar mal entre os usuários**.
+
+- **Número de visitantes no site**: Um site pode ter muitos acessos, mas se esses visitantes não estiverem engajando ou realizando ações valiosas (como compras ou assinaturas), o número de acessos isoladamente não é uma métrica relevante.
+
+- **Quantidade de seguidores nas redes sociais**: Um alto número de seguidores não reflete necessariamente o sucesso de uma campanha ou a qualidade do engajamento com o público. Seguidores podem ser inativos ou não interagir com o conteúdo.
+
+- **Número de registros no banco de dados**: A quantidade de registros não representa, por si só, o valor de uma base de dados. O importante é a **qualidade e relevância dos dados**, e não apenas o volume.
+
+Essas métricas indicam apenas números brutos e podem esconder a realidade do desempenho ou da satisfação dos usuários. É fundamental substituí-las por métricas que realmente **indiquem valor** ou **impacto significativo** no projeto ou produto.
+
+---
+## Conclusão
+
+As métricas, em todos os seus domínios na agilidade, exercem um papel fundamental para a organização. Sem elas, ficamos "cegos" e a melhoria contínua é limitada. Entretanto, lembre-se de que **"Métricas Moldam Comportamentos"**, pois, a partir do momento em que é dito que uma pessoa, ou o ambiente, está sendo medido — ou, no pior cenário, como essa pessoa será medida — é muito comum que ela adote um comportamento que atenda às expectativas dessas medições.
+
+Esse aviso é crucial para que, ao trabalharmos com métricas, tenhamos o cuidado de não utilizar indicadores que não agregam valor e que muitas vezes atrapalham o dia a dia, contaminando o ambiente e reduzindo a agilidade.
+
+Sempre que for escolher uma métrica, utilize aquelas que realmente façam sentido e tragam benefícios à organização. Dessa forma, será possível identificar, analisar e tomar ações para a melhoria contínua do negócio.
