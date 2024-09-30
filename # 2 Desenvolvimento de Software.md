@@ -4,33 +4,65 @@
 
 Na era moderna, a tecnologia da informação e seus respectivos softwares, serviços e aplicativos desempenham um papel cada vez mais predominante no dia a dia da sociedade. Para o desenvolvimento desses, utilizamos a metodologia de desenvolvimento de software, que é um conjunto de métodos coordenados para se alcançar um objetivo por meio de uma dinâmica iterativa, visando à qualidade e à produtividade dos projetos.
 
-> Inicialmente, vamos conhecer a história e sua influência nas metodologias modernas, antes de abordarmos as metodologias atuais.
+> **História e Influência nas Metodologias Modernas:**
 
-Após a Segunda Guerra Mundial, a empresa japonesa Toyota Motors identificou a necessidade de tornar a produção mais eficiente e, para tal, desenvolveu um sistema de produção que fornecia melhor qualidade, menor custo e menor tempo de entrega. Visando diminuir o desperdício, utilizou o princípio de Jidoka (capacidade de detectar uma anormalidade rapidamente e interromper imediatamente o trabalho, evitando desperdícios, otimizando o processo e garantindo a qualidade do produto final) e o conceito de just-in-time (produzir o que é necessário, no momento necessário e na quantidade necessária), por meio da prática Kanban (termo de origem japonesa que significa literalmente "cartão" ou "sinalização"), que utiliza cartões de informação para controlar a produção de acordo com a demanda. Todo esse processo industrial ficou conhecido como TPS (Toyota Production System) e possui grande influência nas metodologias que serão abordadas neste estudo.
+Após a Segunda Guerra Mundial, a empresa japonesa Toyota Motors identificou a necessidade de tornar a produção mais eficiente. Para tal, desenvolveu um sistema de produção que fornecia:
 
-Saindo do modelo de desenvolvimento industrial, no modelo de desenvolvimento de software, algo muito utilizado foi o Modelo em Cascata (Waterfall Model), uma sequência de fases no desenvolvimento de software que são: análise e definição dos requisitos, design, desenvolvimento, testes e manutenção. Porém, o modelo em Cascata apresenta alguns desafios, como:
+- Melhor qualidade
+- Menor custo
+- Menor tempo de entrega
 
-- Escopo engessado no começo do projeto: Visto que mudanças no mundo acontecem cada vez mais rápido, uma mudança na demanda pode tornar o produto irrelevante até o final do projeto;
-- Desperdício com funcionalidades desnecessárias: Como tudo precisa ser definido no começo, o máximo de funcionalidades será solicitado, mesmo sem a certeza de sua necessidade;
-- Entregas lentas: Apenas após um longo período de planejamento, execução e testes de grandes blocos de trabalho é que veremos alguma entrega, que, porventura, pode ser algo de pouco valor no momento;
-- Baixa transparência: Manter o envolvimento de todos apenas com processos e extensas documentações não é algo motivador. Provavelmente, algumas pessoas não vão querer ler tudo para executar parte do trabalho, logo, não estarão cientes de todo o projeto com clareza.
+Visando diminuir o desperdício, foram utilizados os seguintes princípios:
 
-Para trabalhar com o desenvolvimento de software de forma mais adequada, na privavera de 2000 um grupo de líderes da comunidade do Extreme Programming (XP - Metodologia que será abordada mais a frente) se reuniram para discutir o processo de desenvolvimento com XP; No decorrer da reunião chegaram a um concenso sobre pontos importantes referentes ao desenvolvimento de software e decidiram escrever um documento que serviria como guia aos novos processos de desenvolvimento ágil de software, o famoso Manifesto Ágil
+- **Jidoka:** Capacidade de detectar uma anormalidade rapidamente e interromper imediatamente o trabalho, evitando desperdícios e otimizando o processo.
+- **Just-in-time:** Produzir o que é necessário, no momento necessário e na quantidade necessária.
+- **Kanban:** Utilização de cartões de informação para controlar a produção de acordo com a demanda.
 
-## Manifesto Ágil
+Esse processo industrial ficou conhecido como **TPS** (Toyota Production System) e influenciou fortemente as metodologias abordadas neste estudo.
 
-O Manifesto Ágil possui 4 valores e 12 princípios. Note que nas frases, mesmo havendo valores nos itens à direita, a valorização é maior nos itens da esquerda:
+### Modelo de Desenvolvimento em Cascata (Waterfall Model)
 
-- **Indivíduos e interações** mais que processos e ferramentas
-- **Software em funcionamento** mais que documentação abrangente
-- **Colaboração com o cliente** mais que negociação de contratos
-- **Responder a mudanças mais** que seguir um plano
+No desenvolvimento de software, um dos primeiros modelos utilizados foi o **Modelo em Cascata**, que segue as seguintes fases:
 
-### Valores
+1. Análise e definição dos requisitos
+2. Design
+3. Desenvolvimento
+4. Testes
+5. Manutenção
 
-- **Indivíduos e interações** mais que processos e ferramentas: O desenvolvimento de software é uma atividade humana e que problemas de comunicação podem ser resolvidos com qualidade na interação entre os envolvidos. Os processos e ferramentas devem cumprir seu papel de forma simples e útil, mas sem "passar por cima" das pessoas.
-- **Software em funcionamento** mais que documentação abrangente: O software funcionando é um indicador de sucesso e é o que o cliente espera, a documentação do mesmo deve ser algo que agregue valor e com informações necessárias.
-- **Colaboração com o cliente** mais que negociação de contratos: A colaboração com o cliente é algo fundamental para o sucesso do desenvolvimento do software, o trabalho em equipe e a tomada de decisões em conjunto contribuem para alcançar um único objetivo. 
-- **Responder a mudanças mais** que seguir um plano: O desenvolvimento de software é algo complexo e possui alta incerteza, nessas situações devemos aprender com as situações ocorridas e adaptar o plano sempre que possível.
+#### Desafios do Modelo em Cascata:
 
-Com o Manifesto Ágil escrito, foi criada a *Agile Alliance*, uma organização sem fins lucrativos que busca disseminar o conhecimento e promover discussões sobre métodos ágeis, como o Scrum, Kanban e XP, que têm em suas bases os valores e princípios do Manifesto Ágil. Muitas pessoas acreditam que as metodologias ágeis são "ágeis" porque são rápidas e entregam funcionalidades o quanto antes. Na verdade, a agilidade simboliza a capacidade de adaptação a mudanças. A velocidade nas entregas é uma consequência que ocorre quando utilizamos adequadamente as metodologias, que serão abordadas nesse estudo. 
+- **Escopo engessado no início:** Mudanças rápidas no mundo podem tornar o produto irrelevante antes do final do projeto.
+- **Desperdício com funcionalidades desnecessárias:** Funcionalidades são solicitadas no início sem certeza de sua necessidade.
+- **Entregas lentas:** Somente após longos períodos de planejamento, execução e testes vemos uma entrega que pode ter pouco valor.
+- **Baixa transparência:** Extensa documentação e processos tornam difícil manter todos os envolvidos informados.
+
+### Manifesto Ágil
+
+Na primavera de 2000, líderes da comunidade do **Extreme Programming (XP)** se reuniram para discutir melhorias nos processos de desenvolvimento de software, o que culminou na criação do **Manifesto Ágil**. 
+
+## Valores do Manifesto Ágil
+
+O Manifesto Ágil é baseado em 4 valores principais:
+
+1. **Indivíduos e interações** mais que processos e ferramentas
+2. **Software em funcionamento** mais que documentação abrangente
+3. **Colaboração com o cliente** mais que negociação de contratos
+4. **Responder a mudanças** mais que seguir um plano
+
+### Explicação dos Valores:
+
+1. **Indivíduos e interações:** A interação entre os envolvidos resolve problemas de comunicação com mais qualidade do que processos e ferramentas complexos.
+2. **Software em funcionamento:** O principal indicador de sucesso é o software funcionando, e a documentação deve agregar valor com informações essenciais.
+3. **Colaboração com o cliente:** Trabalhar em conjunto com o cliente e tomar decisões em equipe são fundamentais para atingir os objetivos.
+4. **Responder a mudanças:** O desenvolvimento de software é incerto e dinâmico, e devemos adaptar o plano conforme necessário.
+
+## Disseminação do Manifesto Ágil
+
+Com o Manifesto Ágil, foi criada a **Agile Alliance**, uma organização sem fins lucrativos que promove discussões e dissemina conhecimento sobre métodos ágeis como:
+
+- **Scrum**
+- **Kanban**
+- **XP (Extreme Programming)**
+
+Esses métodos têm como base os valores e princípios do Manifesto Ágil. Muitas vezes, acredita-se que a agilidade está relacionada à velocidade, mas, na realidade, a agilidade se refere à capacidade de adaptação a mudanças. A entrega rápida de funcionalidades é uma consequência do uso correto das metodologias ágeis.
