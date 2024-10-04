@@ -216,7 +216,7 @@ As métricas de atmosfera, no domínio cultural, têm o objetivo de medir a sati
 
 Uma alta taxa de turnover impacta negativamente a organização, especialmente quando os funcionários que saem são de alta qualidade ou ocupam cargos-chave, cuja substituição pode levar tempo. Para reduzir o turnover, recomenda-se implementar programas de **onboarding** e **offboarding** eficazes, que integrem os funcionários à empresa, realizar pesquisas de clima organizacional continuamente, e fazer entrevistas de desligamento.
 
-![Métricas de Atmosfera](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/tree/main/Imagens/M%C3%A9tricas%20de%20Atmosfera)
+![Happiness Radar](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Atmosfera/Happiness%20Radar.png)
 
 ### 2. **Happiness Radar**
 O **Happiness Radar** (radar da satisfação) contribui para as pesquisas de clima organizacional, com o objetivo de identificar a satisfação dos profissionais em relação à organização. Essa métrica pode incluir diferentes pontos de avaliação, como processos, ferramentas, entregas, equipe, e a empresa como um todo. Nos times ágeis, o Happiness Radar é frequentemente utilizado nas cerimônias de retrospectiva e pode ser tão simples quanto uma pergunta: "Como você está se sentindo hoje?", ou uma dinâmica mais detalhada com um quadro de avaliação de múltiplos aspectos.
