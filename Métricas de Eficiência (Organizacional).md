@@ -216,6 +216,8 @@ As métricas de atmosfera, no domínio cultural, têm o objetivo de medir a sati
 
 Uma alta taxa de turnover impacta negativamente a organização, especialmente quando os funcionários que saem são de alta qualidade ou ocupam cargos-chave, cuja substituição pode levar tempo. Para reduzir o turnover, recomenda-se implementar programas de **onboarding** e **offboarding** eficazes, que integrem os funcionários à empresa, realizar pesquisas de clima organizacional continuamente, e fazer entrevistas de desligamento.
 
+![Métricas de Atmosfera](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/tree/main/Imagens/M%C3%A9tricas%20de%20Atmosfera)
+
 ### 2. **Happiness Radar**
 O **Happiness Radar** (radar da satisfação) contribui para as pesquisas de clima organizacional, com o objetivo de identificar a satisfação dos profissionais em relação à organização. Essa métrica pode incluir diferentes pontos de avaliação, como processos, ferramentas, entregas, equipe, e a empresa como um todo. Nos times ágeis, o Happiness Radar é frequentemente utilizado nas cerimônias de retrospectiva e pode ser tão simples quanto uma pergunta: "Como você está se sentindo hoje?", ou uma dinâmica mais detalhada com um quadro de avaliação de múltiplos aspectos.
 
@@ -228,8 +230,12 @@ Além de realizar o Happiness Radar periodicamente, é essencial manter e analis
 ### 1. **Notificação de Problemas**
 Essa métrica refere-se ao número de **bugs** (falhas), defeitos, devoluções de produtos e serviços, bem como o número de chamados ou reclamações. Esses problemas devem ser acompanhados de perto e resolvidos o mais rápido possível. Um problema simples, como uma dúvida sobre o funcionamento de um software, pode gerar custos financeiros para a empresa. Além disso, problemas mais graves, como falhas de segurança, podem expor a organização a prejuízos milionários e afetar negativamente sua imagem no mercado.
 
+![Notificação de Problemas](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Qualidade/Notifica%C3%A7%C3%A3o%20de%20Problemas.png)
+
 ### 2. **Cobertura de Testes**
 Para reduzir a quantidade de problemas notificados, a métrica de **cobertura de testes** é fundamental. Ela indica a porcentagem de código que está coberta por testes automatizados. Uma baixa cobertura pode aumentar os **débitos técnicos** e as chances de comportamentos inesperados, bugs ou vulnerabilidades de segurança. É importante investir no aumento da cobertura de testes, mas isso não garante, por si só, a qualidade do software. Deve-se focar nas funcionalidades principais (core), automatizar sempre que possível, e reduzir a carga de testes manuais.
+
+![Cobertura de Testes](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Qualidade/Cobertura%20de%20Testes.png)
 
 ### Métricas tóxicas e de vaidade
 
