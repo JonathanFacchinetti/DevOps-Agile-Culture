@@ -2,6 +2,9 @@
 
 A ampla adoção de diversas metodologias ágeis no mercado de trabalho atual introduziu o conceito de times multidisciplinares, criando a necessidade de novos papéis e responsabilidades dentro das organizações. Papéis como **Scrum Master** e **Product Owner**, implementados pelo framework Scrum, são exemplos dessas funções. Um time de desenvolvimento normalmente é composto pelos seguintes profissionais:
 
+![Atuação Profissional](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Atua%C3%A7%C3%A3o%20Profissional.png)
+
+
 ## Profissionais do Time de Desenvolvimento
 
 ### Desenvolvedor Back-End

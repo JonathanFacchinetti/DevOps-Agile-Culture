@@ -39,6 +39,8 @@ O Scrum não restringe sua aplicação apenas para a área de TI, ele pode ser a
 - **Inspeção**: Durante todo o tempo é inspecionado o que está sendo feito, através de reuniões diárias ou no momento de uma revisão.
 - **Adaptação**: Conforme as mudanças vão acontecendo, tanto o processo quanto o produto podem sofrer adaptações, desde que preservados os valores e práticas ágeis.
 
+![Pilares SCRUM](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Pilares%20SCRUM.png)
+
 ## Papéis Fundamentais
 
 Para a realização do Scrum, são necessários **3 papéis fundamentais**. Sem esses papéis, não temos o Scrum:
@@ -54,6 +56,8 @@ Para a realização do Scrum, são necessários **3 papéis fundamentais**. Sem 
     - Autonomia para tomar decisões sobre o produto.
     - Evita a criação de um "PO Proxy", garantindo que o PO saiba exatamente o que deve ser feito.
 
+![Product Owner](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Product%20Owner.png)
+
 ### Scrum Master (SM)
 
 - **Responsabilidades**:
@@ -65,6 +69,8 @@ Para a realização do Scrum, são necessários **3 papéis fundamentais**. Sem 
     - Atua como líder do processo e facilitador.
     - Evita a confusão entre o papel de Scrum Master e o de chefe.
 
+![Scrum Master](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Scrum%20Master.png)
+
 ### Time Scrum
 
 - **Composição**:
@@ -75,6 +81,8 @@ Para a realização do Scrum, são necessários **3 papéis fundamentais**. Sem 
     - Manter o time entre 4 e 8 pessoas para garantir eficiência.
 - **Importância**:
     - Promove a colaboração e a entrega contínua de valor.
+
+![Time Scrum](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Time%20Scrum.png)
 
 ## Valores do Scrum
 
