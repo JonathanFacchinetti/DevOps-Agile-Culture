@@ -156,21 +156,10 @@ Enquanto o **Cumulative Flow Diagram (CFD)** foca em visualizar o acúmulo de it
 
 ### ROI (Return on Investment)
 
-O **Return on Investment (ROI)** é uma métrica financeira usada para medir a eficiência ou rentabilidade de um investimento. O ROI ajuda a avaliar o retorno obtido em relação ao custo do investimento. A fórmula básica é:
+Vários projetos podem ser iniciados na empresa e algo que sempre é levantado é qual será o RETURN OF INVESTIMENT (retorno sobre investimento), uma métrica de performance financeira que expressa a relação entre o valor investido em um negócio e o valor obtido em retorno, utilizada para qualificar se um investimento vale a pena ou não financeiramente.
+Imagine que você seja o presidente de uma empresa e receba dois projetos, você deve escolher qual dos dois vai iniciar primeiro: a receita esperada do projeto A é de R$ 1.000.000,00 e o do projeto B é de R$ 500.000,00. Pergunta: qual desses você faria primeiro? A resposta correta depende do valor de investi- mento realizado em cada projeto, se o projeto A necessitar de R$ 800.000,00 de investimento, e o pro- jeto B de R$ 200.000,00, podemos aplicar a seguinte fórmula de ROI:
 
-\[
-ROI = \frac{Ganho do Investimento - Custo do Investimento}{Custo do Investimento} \times 100
-\]
-
-**Exemplo**:
-Se uma empresa investe R$ 10.000 em uma campanha de marketing e obtém R$ 15.000 em receita, o ROI seria calculado assim:
-
-\[
-ROI = \frac{15.000 - 10.000}{10.000} \times 100 = 50\%
-\]
-
-Um ROI positivo indica que o investimento foi lucrativo, enquanto um ROI negativo significa perda.
-
+O ROI é expressado em porcentagem, e dado o cenário anterior, o projeto A teria um retorno de investimento de 25%, enquanto o projeto B traria um retorno de investimento de 150%. Com o ROI podemos tomar melhores decisões, as quais talvez sejam essenciais para a organização, e ele deve ser tratado com uma análise cuidadosa, para ser pos- sível identificar as principais fontes de renda do negócio.
 ---
 
 ### NPS (Net Promoter Score)
@@ -182,11 +171,9 @@ O **Net Promoter Score (NPS)** é uma métrica utilizada para medir a lealdade e
 2. **Neutros** (nota 7-8): Clientes satisfeitos, mas não entusiasmados.
 3. **Detratores** (nota 0-6): Clientes insatisfeitos.
 
-A fórmula do NPS é:
+Para calcular o NPS, você precisa subtrair a porcentagem de detratores da porcentagem de promotores, calculando, assim, uma pontuação entre -100 e 100.
 
-\[
-NPS = \% \text{Promotores} - \% \text{Detratores}
-\]
+Além de perguntar a pontuação no NPS, você também pode adicionar perguntas extras condicionadas à resposta do entrevistado, para assim colher feedback e conseguir tomar ações:
 
 O resultado varia de -100 a 100. Quanto maior o NPS, melhor é a lealdade e satisfação dos clientes.
 
@@ -194,22 +181,13 @@ O resultado varia de -100 a 100. Quanto maior o NPS, melhor é a lealdade e sati
 
 ### Churn
 
-O **Churn** refere-se à taxa de perda de clientes ou assinantes de um serviço em um determinado período de tempo. É uma métrica essencial para empresas de serviços, especialmente as que operam com modelos de assinatura, pois ajuda a identificar o quão bem uma empresa está retendo seus clientes.
+O CHURN é uma métrica que informa a porcentagem de clientes que abandonaram o negócio. Sua fór-
+mula é a divisão da quantidade de clientes que abandonaram em determinado período pela quantidade
+de clientes que existia no início do período. Exemplificando, se o seu negócio possui 300 clientes no ini-
+cio do mês, e 15 deles abandonaram, a conta seria (15/300)* 100, totalizando um churn de 5%.
 
-### Cálculo do Churn Rate:
-\[
-Churn Rate = \frac{\text{Clientes Perdidos}}{\text{Clientes Totais no Início do Período}} \times 100
-\]
-
-### Exemplo:
-Se uma empresa tem 1.000 clientes no início do mês e perde 50 clientes até o final, o churn seria:
-
-\[
-Churn Rate = \frac{50}{1000} \times 100 = 5\%
-\]
-
-Um churn alto indica que a empresa está perdendo muitos clientes, o que pode ser um sinal de problemas com o produto ou serviço.
-
+Um dos principais motivos que levam ao churn é a insatisfação do cliente, ele não vê valor no negócio ou opta pela concorrência, porém algumas ações podem ser tomadas para diminuição do churn, como alinhamento de expectativas, entrega de va- lor esperado pelo cliente, boas experiências, aten- ção aos feedbacks e correção rápida de eventuais problemas e erros. É muito importante medir o churn para reduzi-lo ao máximo, pois, dependendo do modelo de negócio, especialmente aqueles que
+dependem de assinaturas, eles podem sofrer um impacto direto nas receitas da organização
 
 ## Métricas de Atmosfera (Cultural)
 
