@@ -108,8 +108,15 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 - **Objetivo**: É um diagrama dinâmico que representa o fluxo e a sequência de tarefas de um processamento.
 - **Visão de Concorrência**: Trata da divisão do sistema em processos e processadores. Permite uma melhor utilização do ambiente onde o sistema se encontrará, especialmente se o mesmo possui exceções paralelas e gerenciamentos assíncronos.
 
+**Exemplo de Diagrama de Atividades**
+
 ![Diagrama de Atividades](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Atividades.png)
-![Diagrama de Atividades com Raiais ou Partições](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20De%20Atividades%20c_Raias%20ou%20Parti%C3%A7%C3%B5es.png)
+
+**Exemplo de Diagrama de Atividades com raias ou partições**
+
+![Diagrama de Atividades com Raias ou Partições](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20De%20Atividades%20c_Raias%20ou%20Parti%C3%A7%C3%B5es.png)
+
+**Exemplo de Diagrama de Atividades, visão do Caso de Uso**
 
 ![Diagrama de Atividades Visão Caso de Uso](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Atividades%20Vis%C3%A3o%20caso%20de%20uso.png)
 
@@ -118,7 +125,12 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 - **Objetivo**: É um diagrama dinâmico que representa um conjunto de ações (casos de uso) que os sistemas devem executar em interação com um ou mais usuários externos do sistema (atores), a fim de fornecer resultados para as partes interessadas do(s) sistema(s).
 - **Visão (use-case)**: Descreve a funcionalidade do sistema executada pelos atores externos (usuários).
 
+**Exemplo de Diagrama de Caso de Uso referente ao processo ilikeBeer**
+
 ![Caso de Uso 1](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_1.png)
+
+**Exemplo de Diagrama de Caso de Uso referente ao processo de Reservar Mesa**
+
 ![Caso de Uso 2](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_2.png)
 
 ## Diagrama de Classe
@@ -126,8 +138,14 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 - **Objetivo**: É um diagrama estático que representa a estrutura lógica do sistema, subsistema ou componente projetado como classes e interfaces relacionadas, com suas características, restrições e associações, generalizações, etc.
 - **Visão Lógica ou de Projeto**: Descreve o sistema internamente, dando suporte à visão estrutural do sistema.
 
+**Exemplo de Diagrama de Classe referente ao processo Reservar
+Mesa com notação de Pacotes**
+
 ![Diagrama de Classes 1](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_1.png)
-![Diagrama de Classes 2](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_2.png)
+
+**Exemplo de Diagrama de Classe referente ao processo de Pedido
+
+**![Diagrama de Classes 2](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_2.png)
 
 
 ## Diagrama de Sequência
@@ -143,6 +161,9 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 - **Visão de Concorrência**: Trata da divisão do sistema em processos e processadores. Permite uma melhor utilização do ambiente onde o sistema se encontrará, especialmente se o mesmo possui exceções paralelas e gerenciamentos assíncronos.
 
 ![Diagrama de Estado](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado.png)
+
+**Exemplo**: 
+
 ![Diagrama de Estado Exemplo](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado%20exemplo.png)
 
 ## Diagrama de Componentes
