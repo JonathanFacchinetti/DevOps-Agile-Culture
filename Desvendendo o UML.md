@@ -120,6 +120,7 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Atividades, visão do Caso de Uso</b><br>
+    
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Atividades%20Vis%C3%A3o%20caso%20de%20uso.png">
 </p>
 
@@ -132,11 +133,13 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Caso de Uso referente ao processo ilikeBeer</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_1.png">
 </p>
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Caso de Uso referente ao processo de Reservar Mesa</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_2.png">
 </p>
 
@@ -149,11 +152,13 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Classe referente ao processo Reservar Mesa com notação de Pacotes</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_1.png">
 </p>
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Classe referente ao processo de Pedido</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_2.png">
 </p>
 
@@ -164,7 +169,8 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 - **Objetivo**: É um diagrama dinâmico que representa a ordem da troca de mensagens entre os objetos.
 - **Visão de Concorrência**: Trata da divisão do sistema em processos e processadores. Permite uma melhor utilização do ambiente onde o sistema se encontrará, se ele possui exceções paralelas e gerenciamentos assíncronos.
 
-<p align="center"> 
+<p align="center">
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Sequencia.png">
 </p>
 
@@ -177,11 +183,13 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Estado</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado.png">
 </p>
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Máquina de Estados</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado%20exemplo.png">
 </p>
 
@@ -194,11 +202,13 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Componentes, notação UML 1.4</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes.png">
 </p>
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Componentes UML 2</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes_2Exemplo.png">
 </p>
 
@@ -211,6 +221,7 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Implantação</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Implanta%C3%A7%C3%A3o.png">
 </p>
 
@@ -223,6 +234,7 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Objetos</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Objetos.png">
 </p>
 
@@ -235,6 +247,7 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 
 <p align="center"> 
     <b>Exemplo de Diagrama de Colaboração</b><br>
+
     <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Colabora%C3%A7%C3%A3o.png">
 </p>
 
