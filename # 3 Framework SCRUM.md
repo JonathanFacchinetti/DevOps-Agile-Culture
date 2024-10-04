@@ -239,11 +239,9 @@ Por fim, a cerimônia de **Sprint Retrospective** é realizada. Enquanto o objet
 
 O framework Scrum é ideal para equipes que desejam adotar a cultura ágil e para projetos que possuem uma janela de entrega constante. Sua metodologia bem estruturada, que abrange todo o processo, oferece um direcionamento claro sobre o que deve ser feito. Além disso, à medida que a equipe amadurece, o Scrum permite adaptações para melhor atender às suas necessidades. O framework utiliza elementos visuais, como o quadro Kanban, para gerenciar as atividades, que será abordado posteriormente no método Kanban.
 
-## Kanban
+### Um Quadro com Fluxo de Trabalho
 
 Para iniciar o estudo referente ao método Kanban, é necessário diferenciar a palavra **Kanban** com "K" maiúsculo e kanban com "k" minúsculo. O kanban refere-se à utilização com o fluxo de trabalho, com os respectivos cartões que representam as atividades, sua origem é japonesa e significa literalmente "cartão" ou "sinalização", enquanto o Kanban refere-se ao método de desenvolvimento ágil criado em 2005, influenciado pelo Sistema Toyota de Produção.
-
-### Um Quadro com Fluxo de Trabalho
 
 No modelo corporativo tradicional, a transição de mudanças geralmente ocorre de forma radical dentro de um determinado período de tempo. No entanto, como em qualquer mudança, existe um período de adaptação no qual podem ocorrer possíveis prejuízos até que a nova situação se estabilize e comece a gerar o retorno desejado. Dependendo do nível da mudança proposta, a organização pode não ter uma estrutura adequada para suportá-la e, por isso, optar por reverter a decisão ou, no pior cenário, até mesmo enfrentar a falência. Esse tipo de comportamento organizacional, em que uma mudança radical no status dentro de um período limitado impacta a capacidade da organização, é conhecido como **Kaikaku**.
 
@@ -251,59 +249,6 @@ Para trabalharmos mudanças de forma incremental, sem que o período de adaptaç
 
 Quando falamos sobre metodologias de desenvolvimento ágil, o modelo de **Evolução Kaizen** é altamente aderente e está profundamente enraizado na filosofia dessas metodologias. O método **Kanban** é um ótimo exemplo disso. Ele é composto por um fluxo de valor no qual as etapas de trabalho são mapeadas em um quadro Kanban. As atividades fluem da esquerda para a direita, e cada etapa adiciona uma melhoria de valor ao item. Quando o item chega ao final do quadro, ele estará concluído, entregando valor completo.
 
-#### Exemplo de Quadro Kanban
-
-Para desenvolver um software, são necessárias as seguintes etapas:
-1. Levantamento das atividades (**Backlog**)
-2. Design
-3. Desenvolvimento
-4. Testes
-5. Deploy
-
-O quadro Kanban ficaria assim:
-
-[Backlog] -> [Design] -> [Desenvolvimento] -> [Testes] -> [Deploy]
-
-
-No entanto, para realmente trabalharmos de forma eficaz com o método Kanban, apenas o quadro não é suficiente. É necessário incrementá-lo com alguns conceitos fundamentais. Primeiramente, vamos falar sobre o **sistema puxado** e o **sistema empurrado** de trabalho.
-
-### Sistema Empurrado vs. Sistema Puxado
-
-- **Sistema Empurrado**
-    - Produção baseada na demanda.
-    - Trabalho "empurrado" para a equipe independentemente da capacidade.
-    - **Efeitos**:
-        - Atraso nas entregas.
-        - Sobrecarga de trabalho.
-        - Entregas em grandes lotes.
-        - Possível **burnout** dos profissionais.
-
-- **Sistema Puxado**
-    - Trabalho realizado conforme a capacidade da equipe.
-    - Evita sobrecargas e mantém fluxo de valor constante.
-    - **Vantagens**:
-        - Entregas menores e mais frequentes.
-        - Melhor equilíbrio entre capacidade e demanda.
-
-### Implementação do Sistema Puxado no Kanban
-
-1. **Configuração do Quadro Kanban**:
-    - Adicionar colunas "Fazendo" e "Pronto".
-    - Limitar a capacidade de trabalho em cada etapa.
-
-    ```
-    [Backlog] -> [Design] -> [Fazendo] -> [Pronto] -> [Desenvolvimento] -> [Fazendo] -> [Pronto] -> [Testes] -> [Fazendo] -> [Pronto] -> [Deploy]
-    ```
-
-2. **Fluxo de Trabalho**:
-    - Profissional de Design "puxa" a atividade para "Fazendo" se houver capacidade.
-    - Ao finalizar, move para "Pronto".
-    - Profissional de Desenvolvimento "puxa" da coluna "Pronto" para "Fazendo".
-    - Continua até a coluna "Deploy".
-
-3. **Limites de WIP**:
-    - Controlar o fluxo de trabalho e evitar sobrecargas.
-    - Equilibrar capacidade do time e demanda executando melhorias contínuas.
 
 ## Princípios do Kanban
 
