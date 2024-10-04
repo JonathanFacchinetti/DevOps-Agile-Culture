@@ -86,7 +86,7 @@ Existe alguns exemplos de CFD conhecidos, que já demonstram determinadas caract
 
 Times maduros que utilizam o método Kanban frequentemente apresentam um CFD com o formato de uma **baleia penteada**, onde as fases de trabalho avançam com a mesma velocidade. A parte **verde** do diagrama representa o corpo da baleia, que corresponde à fase de entrega. Quanto mais os "cabelos" da baleia estiverem alinhados ao corpo, **menor é o WIP e o lead time**. Esse modelo de CFD é o ideal para times ágeis, pois indica que o **sistema puxado está funcionando** eficientemente, com etapas de trabalho cujos esforços são equilibrados, levando a um **fluxo estável e rápido** com **baixos cycle time e lead time**.
 
-<p float="left">
+<p align="center">
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/BALEIA_PENTEADA_1.png" width="45%" />
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/BALEIA_PENTEADA_2.png" width="45%" />
 </p>
@@ -95,7 +95,7 @@ Times maduros que utilizam o método Kanban frequentemente apresentam um CFD com
 
 Esse tipo de CFD revela que há **trabalho acumulado**, e que, com certa frequência, esse trabalho é movido para a próxima fase e concluído rapidamente. Um exemplo comum seria o acúmulo de atividades que foram homologadas e aguardam a implantação. No diagrama, as fases **laranja** e **azul** representam o pão do cachorro-quente, enquanto as fases intermediárias simbolizam a **salsicha e a mostarda**, que são as atividades em execução.
 
-<p float="left">
+<p align="center">
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/CACHORRO_QUENTE_1.png" width="45%" />
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/CACHORRO_QUENTE_2.png" width="45%" />
 </p>
@@ -104,7 +104,7 @@ Esse tipo de CFD revela que há **trabalho acumulado**, e que, com certa frequê
 
 À medida que o tempo passa, mais itens entram em progresso e ficam acumulados por mais tempo, sugerindo que a capacidade da equipe pode estar sendo ultrapassada. Esse tipo de CFD assume a forma de uma **boca aberta**, onde as fases **laranja** e **azul** lembram a boca de um jacaré. Esse formato indica que há **mais itens em desenvolvimento do que o time pode suportar**, gerando atrasos e gargalos.
 
-<p float="left">
+<p align="center">
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/BOCA_JACARE_1.png" width="45%" />
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/BOCA_JACARE_2.png" width="45%" />
 </p>
@@ -113,7 +113,7 @@ Esse tipo de CFD revela que há **trabalho acumulado**, e que, com certa frequê
 
 No caso de equipes que seguem o modelo **Waterfall**, as atividades são realizadas em blocos, o que resulta em **cycle times e lead times** maiores. Consequentemente, o gráfico fica com grandes blocos de tempo, onde cada fase pode ser tão extensa que o diagrama se assemelha ao **pescoço de uma girafa**. Esse formato é típico de fluxos de trabalho em cascata, que são mais rígidos e têm menos flexibilidade em comparação com métodos ágeis.
 
-<p float="left">
+<p align="center">
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/PESCO%C3%87O_GIRAFA_1.png" width="45%" />
   <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Fluxo%20de%20Trabalho/PESCO%C3%87O_GIRAFA_2.png" width="45%" />
 </p>
@@ -121,6 +121,8 @@ No caso de equipes que seguem o modelo **Waterfall**, as atividades são realiza
 ## Control Chart - Gráfico de Controle
 
 O **Control Chart** (gráfico de controle) é uma ferramenta amplamente utilizada na gestão de processos e na metodologia ágil para monitorar o desempenho de um processo ao longo do tempo. Ele permite visualizar a variação e identificar possíveis desvios no fluxo de trabalho, ajudando as equipes a entender a estabilidade e a capacidade do processo.
+
+![Control Chart](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Efici%C3%AAncia/Control%20%20Chart.png)
 
 ### Componentes do Control Chart
 
