@@ -108,92 +108,74 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 - **Objetivo**: É um diagrama dinâmico que representa o fluxo e a sequência de tarefas de um processamento.
 - **Visão de Concorrência**: Trata da divisão do sistema em processos e processadores. Permite uma melhor utilização do ambiente onde o sistema se encontrará, especialmente se o mesmo possui exceções paralelas e gerenciamentos assíncronos.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Atividades.png" alt="Diagrama de Atividades" width="45%">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20De%20Atividades%20c_Raias%20ou%20Parti%C3%A7%C3%B5es.png" alt="Diagrama de Atividades com Raiais ou Partições" width="45%">
-</p>
+![Diagrama de Atividades](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Atividades.png)
+![Diagrama de Atividades com Raiais ou Partições](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20De%20Atividades%20c_Raias%20ou%20Parti%C3%A7%C3%B5es.png)
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Atividades%20Vis%C3%A3o%20caso%20de%20uso.png" alt="Diagrama de Atividades Visão Caso de Uso" width="50%">
-</p>
+![Diagrama de Atividades Visão Caso de Uso](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Atividades%20Vis%C3%A3o%20caso%20de%20uso.png)
 
 ## Diagrama de Caso de Uso
 
 - **Objetivo**: É um diagrama dinâmico que representa um conjunto de ações (casos de uso) que os sistemas devem executar em interação com um ou mais usuários externos do sistema (atores), a fim de fornecer resultados para as partes interessadas do(s) sistema(s).
 - **Visão (use-case)**: Descreve a funcionalidade do sistema executada pelos atores externos (usuários).
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_1.png" alt="Caso de Uso 1" width="45%">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_2.png" alt="Caso de Uso 2" width="45%">
-</p>
+![Caso de Uso 1](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_1.png)
+![Caso de Uso 2](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/CASO%20DE%20USO_2.png)
 
 ## Diagrama de Classe
 
 - **Objetivo**: É um diagrama estático que representa a estrutura lógica do sistema, subsistema ou componente projetado como classes e interfaces relacionadas, com suas características, restrições e associações, generalizações, etc.
 - **Visão Lógica ou de Projeto**: Descreve o sistema internamente, dando suporte à visão estrutural do sistema.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_1.png" alt="Diagrama de Classes 1" width="45%">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_2.png" alt="Diagrama de Classes 2" width="45%">
-</p>
+![Diagrama de Classes 1](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_1.png)
+![Diagrama de Classes 2](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_2.png)
+
 
 ## Diagrama de Sequência
 
 - **Objetivo**: É um diagrama dinâmico que representa a ordem da troca de mensagens entre os objetos.
 - **Visão de Concorrência**: Trata da divisão do sistema em processos e processadores. Permite uma melhor utilização do ambiente onde o sistema se encontrará, se ele possui exceções paralelas e gerenciamentos assíncronos.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Sequencia.png" alt="Diagrama de Sequência" width="50%">
-</p>
+![Diagrama de Sequência](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Sequencia.png)
 
 ## Diagrama de Máquina de Estados
 
 - **Objetivo**: É um diagrama dinâmico que representa a situação em que um objeto se encontra em determinado momento durante o processamento. Um objeto pode passar por diversos estados.
 - **Visão de Concorrência**: Trata da divisão do sistema em processos e processadores. Permite uma melhor utilização do ambiente onde o sistema se encontrará, especialmente se o mesmo possui exceções paralelas e gerenciamentos assíncronos.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado.png" alt="Diagrama de Estado" width="45%">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado%20exemplo.png" alt="Diagrama de Estado Exemplo" width="45%">
-</p>
+![Diagrama de Estado](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado.png)
+![Diagrama de Estado Exemplo](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado%20exemplo.png)
 
 ## Diagrama de Componentes
 
 - **Objetivo**: É um diagrama estático que representa a estrutura física da implementação e é construído como parte da especificação da estrutura do software.
 - **Visão de Componentes**: Trata da descrição da implementação dos módulos e suas dependências. São desenvolvidos por desenvolvedores com maior experiência em programação ou por arquitetos de software.
 
+![Diagrama de Componentes](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes.png)
+
 A partir da UML 2, o componente que era representado por um retângulo com dois retângulos menores, conforme exemplo da figura acima, foi substituído por um retângulo contendo internamente o antigo símbolo, conforme exemplo (imagem de baixo) no Diagrama de Componente.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes.png" alt="Diagrama de Componentes" width="45%">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes_2Exemplo.png" alt="Diagrama de Componentes Exemplo" width="45%">
-</p>
+![Diagrama de Componentes Exemplo](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes_2Exemplo.png)
 
 ## Diagrama de Implantação
 
 - **Objetivo**: É um diagrama estático que representa os elementos de configuração do processamento em tempo de execução, ou seja, uma visão dos componentes de software.
 - **Visão de Organização**: Mostra a organização física do sistema, os computadores, os periféricos e como eles se conectam entre si.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Implanta%C3%A7%C3%A3o.png" alt="Diagrama de Implantação" width="50%">
-</p>
+![Diagrama de Implantação](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Implanta%C3%A7%C3%A3o.png)
 
 ## Diagrama de Objetos
 
 - **Objetivo**: É um diagrama estático que representa a relação dos objetos com base nas instâncias criadas a partir do diagrama de classe de análise.
 - **Visão Lógica ou de Projeto**: Descreve o sistema internamente, dando suporte à visão estrutural do projeto.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Objetos.png" alt="Diagrama de Objetos" width="50%">
-</p>
+![Diagrama de Objetos](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Objetos.png)
 
 ## Diagrama de Colaboração
 
 - **Objetivo**: Foca na ordenação estrutural em que as mensagens de um sistema são trocadas entre os objetos.
 - **Visão Lógica ou de Projeto**: Exibe de forma explícita a colaboração dinâmica entre os objetos.
 
-<p align="center">
-  <img src="https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Colabora%C3%A7%C3%A3o.png" alt="Diagrama de Colaboração" width="50%">
-</p>
+![Diagrama de Colaboração](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Colabora%C3%A7%C3%A3o.png)
 
 ## Diagrama de Pacotes
 
