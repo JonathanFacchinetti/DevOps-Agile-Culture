@@ -138,12 +138,11 @@ Os diagramas que serão exemplificados a seguir trazem o objetivo e a visão pro
 - **Objetivo**: É um diagrama estático que representa a estrutura lógica do sistema, subsistema ou componente projetado como classes e interfaces relacionadas, com suas características, restrições e associações, generalizações, etc.
 - **Visão Lógica ou de Projeto**: Descreve o sistema internamente, dando suporte à visão estrutural do sistema.
 
-**Exemplo de Diagrama de Classe referente ao processo Reservar
-Mesa com notação de Pacotes**
+**Exemplo de Diagrama de Classe referente ao processo Reservar Mesa com notação de Pacotes**
 
 ![Diagrama de Classes 1](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_1.png)
 
-**Exemplo de Diagrama de Classe referente ao processo de Pedido
+**Exemplo de Diagrama de Classe referente ao processo de Pedido**
 
 **![Diagrama de Classes 2](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Classe_2.png)
 
@@ -160,9 +159,11 @@ Mesa com notação de Pacotes**
 - **Objetivo**: É um diagrama dinâmico que representa a situação em que um objeto se encontra em determinado momento durante o processamento. Um objeto pode passar por diversos estados.
 - **Visão de Concorrência**: Trata da divisão do sistema em processos e processadores. Permite uma melhor utilização do ambiente onde o sistema se encontrará, especialmente se o mesmo possui exceções paralelas e gerenciamentos assíncronos.
 
+**Exemplo de Diagrama de Estado**
+
 ![Diagrama de Estado](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado.png)
 
-**Exemplo**: 
+**Exemplo de Diagrama de Máquina de Estados**: 
 
 ![Diagrama de Estado Exemplo](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Estado%20exemplo.png)
 
@@ -171,9 +172,11 @@ Mesa com notação de Pacotes**
 - **Objetivo**: É um diagrama estático que representa a estrutura física da implementação e é construído como parte da especificação da estrutura do software.
 - **Visão de Componentes**: Trata da descrição da implementação dos módulos e suas dependências. São desenvolvidos por desenvolvedores com maior experiência em programação ou por arquitetos de software.
 
+**Exemplo de Diagrama de Diagrama de Componentes, notação UML 1.4**
+
 ![Diagrama de Componentes](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes.png)
 
-A partir da UML 2, o componente que era representado por um retângulo com dois retângulos menores, conforme exemplo da figura acima, foi substituído por um retângulo contendo internamente o antigo símbolo, conforme exemplo (imagem de baixo) no Diagrama de Componente.
+A partir da UML 2, o componente que era representado por um retângulo com dois retângulos menores, conforme exemplo da figura acima, foi substituído por um retângulo contendo internamente o antigo símbolo, conforme exemplo da imagem abaixo - Diagrama de Componente:
 
 ![Diagrama de Componentes Exemplo](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Componentes_2Exemplo.png)
 
@@ -182,6 +185,8 @@ A partir da UML 2, o componente que era representado por um retângulo com dois 
 - **Objetivo**: É um diagrama estático que representa os elementos de configuração do processamento em tempo de execução, ou seja, uma visão dos componentes de software.
 - **Visão de Organização**: Mostra a organização física do sistema, os computadores, os periféricos e como eles se conectam entre si.
 
+**Exemplo de Diagrama de Implantação com os componentes relacionados**
+
 ![Diagrama de Implantação](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Implanta%C3%A7%C3%A3o.png)
 
 ## Diagrama de Objetos
@@ -189,12 +194,15 @@ A partir da UML 2, o componente que era representado por um retângulo com dois 
 - **Objetivo**: É um diagrama estático que representa a relação dos objetos com base nas instâncias criadas a partir do diagrama de classe de análise.
 - **Visão Lógica ou de Projeto**: Descreve o sistema internamente, dando suporte à visão estrutural do projeto.
 
+**Exemplo de Diagrama de Objetos**
 ![Diagrama de Objetos](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Objetos.png)
 
 ## Diagrama de Colaboração
 
 - **Objetivo**: Foca na ordenação estrutural em que as mensagens de um sistema são trocadas entre os objetos.
 - **Visão Lógica ou de Projeto**: Exibe de forma explícita a colaboração dinâmica entre os objetos.
+
+**Exemplo de Diagrama de Colaboração**
 
 ![Diagrama de Colaboração](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Diagramas%20da%20UML/Diagrama%20de%20Colabora%C3%A7%C3%A3o.png)
 
