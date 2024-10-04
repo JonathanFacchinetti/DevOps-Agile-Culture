@@ -247,26 +247,37 @@ No modelo corporativo tradicional, a transição de mudanças geralmente ocorre 
 
 Para trabalharmos mudanças de forma incremental, sem que o período de adaptação seja muito grande e diminuindo o risco da mudança, temos a abordagem de evolução **Kaizen**, que visa ciclos de iterações e melhorias contínuas referentes à mudança organizacional, com o objetivo de eliminar desperdícios e fazer "hoje melhor do que ontem, amanhã melhor do que hoje!" Na figura "Gráfico de Mudança Kaizen Versus Kaikaku" temos um gráfico comparativo entre as duas abordagens:
 
-**Gráfico de mudança Kaikaku**:
+## Gráfico de mudança Kaikaku
+
 ![Gráfico de Mudança Kaikaku](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Gr%C3%A1fico%20de%20Mudan%C3%A7a%20Kaikaku.png)
 
-**Gráfico de mudança Kaizen versus Kaikaku**:
+## Gráfico de mudança Kaizen versus Kaikaku
+
 ![Gráfico de Mudança Kaizen versus Kaikaku](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Gr%C3%A1fico%20de%20Mudan%C3%A7a%20Kaizen%20versus%20Kaikaku.png)
 
 Quando falamos sobre metodologias de desenvolvimento ágil, o modelo de **Evolução Kaizen** é altamente aderente e está profundamente enraizado na filosofia dessas metodologias. O método **Kanban** é um ótimo exemplo disso. Ele é composto por um fluxo de valor no qual as etapas de trabalho são mapeadas em um quadro Kanban. As atividades fluem da esquerda para a direita, e cada etapa adiciona uma melhoria de valor ao item. Quando o item chega ao final do quadro, ele estará concluído, entregando valor completo.
-Vamos exemplificar o seguinte cenário, em que para desenvolver um software são necessárias as etapas de levantamento das atividades (backlog), design, desenvolvimento, testes e deploy, o quadro kanban fi- caria assim:
-Mas para realmente conseguirmos trabalhar com o método Kanban, apenas o quadro não é o suficiente, precisamos incrementá-lo com alguns conceitos, primeiramente vamos falar sobre o sistema puxado e empurrado de trabalho.
-O Sistema empurrado faz a produção ser baseada na demanda, onde dada uma quantidade de trabalho X, esse trabalho é "empurrado" para uma equipe que muitas vezes não tem a capacidade para executá- lo, exigindo 100% de ocupação do tempo para o desenvolvimento, para que um grande lote de trabalho seja entregue. Os principais efeitos de um sistema empurrado são a demora para entrega uma vez que todos estão 100% ocupados, e isso não significa 100% de produtividade, sobrecarga de trabalho, entre- gas em grandes lotes, e no pior dos cenários o burnout (exaustão prolongada e a diminuição do inte- resse em trabalhar) dos profissionais.
-O método Kanban trabalha com o conceito de sistema puxado, em que os profissionais "puxam" o traba- Iho a ser feito quando existe capacidade para executá-lo, evitando sobrecargas, uma vez que a capaci- dade é limitada dentro de limites estabelecidos corretamente, para assim prover um equilíbrio entre a ca- pacidade do time e a demanda que o mesmo pode executar. Para facilitar o entendimento, vamos inserir o conceito de sistema puxado no nosso quadro kanban, nas colunas de trabalho, vamos inserir mais duas etapas, o "fazendo" e o "pronto", e, para cada etapa, vamos limitar a capacidade de trabalho possível em
-cada etapa:
+
+Vamos exemplificar o seguinte cenário, em que para desenvolver um software são necessárias as etapas de levantamento das atividades (backlog), design, desenvolvimento, testes e deploy, o quadro kanban ficaria assim:
+
+Mas para realmente conseguirmos trabalhar com o método Kanban, apenas o quadro não é suficiente, precisamos incrementá-lo com alguns conceitos, primeiramente vamos falar sobre o sistema puxado e empurrado de trabalho.
+
+O Sistema empurrado faz a produção ser baseada na demanda, onde dada uma quantidade de trabalho X, esse trabalho é "empurrado" para uma equipe que muitas vezes não tem a capacidade para executá-lo, exigindo 100% de ocupação do tempo para o desenvolvimento, para que um grande lote de trabalho seja entregue. Os principais efeitos de um sistema empurrado são a demora para entregar uma vez que todos estão 100% ocupados, e isso não significa 100% de produtividade, sobrecarga de trabalho, entregas em grandes lotes, e no pior dos cenários, o burnout (exaustão prolongada e a diminuição do interesse em trabalhar) dos profissionais.
+
+O método Kanban trabalha com o conceito de sistema puxado, em que os profissionais "puxam" o trabalho a ser feito quando existe capacidade para executá-lo, evitando sobrecargas. A capacidade é limitada dentro de limites estabelecidos corretamente, para assim prover um equilíbrio entre a capacidade do time e a demanda que o mesmo pode executar. Para facilitar o entendimento, vamos inserir o conceito de sistema puxado no nosso quadro kanban. Nas colunas de trabalho, vamos inserir mais duas etapas, o "fazendo" e o "pronto", e, para cada etapa, vamos limitar a capacidade de trabalho possível em cada etapa:
+
+## Quadro kanban
 
 ![Quadro kanban](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Quadro%20kanban.png)
+
+## Quadro kanban com sistema puxado
+
 ![Quadro kanban com sistema puxado](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/quadro%20kanban%20com%20sistema%20puxado.png)
 
-Com o kanban configurado, vamos executar o sistema puxado, uma vez que exista trabalho no backlog, o profissional de Design "puxa" a atividade para a etapa de Design na coluna "Fazendo", desde que ele não esteja executando nenhuma atividade, quando ele finalizar essa atividade, moverá a atividade para a coluna de "Pronto", isso indica que o profissional de Desenvolvimento possui atividade a ser feita, e o profissional de Desenvolvimento "puxa" a atividade do "Pronto" de Design para o "Fazendo" do Desen- volvimento, e assim segue esse fluxo até a atividade chegar ao "Pronto" à direita do quadro kanban. Os limites em cada etapa servem para controlar o fluxo de trabalho e evitar sobrecarga, um item só pode transitar entre as etapas se houver espaço para o mesmo, consequentemente em determinado momento algum profissional poderá ficar ocioso, pois ele não poderá "puxar" trabalho, e isso não significa ficar sem trabalhar, em um sistema Kanban todos do time são estimulados a olhar para todo o fluxo e tentar contribuir com o valor da atividade mesmo fora da sua etapa, ou até mesmo usar o tempo para pensar em melhorias ou se desenvolver em algum ponto, o importante é que o profissional não fique apenas fo- cado em sua etapa e respeite o limites do quadro kanban, para evitar a geração de estoque e sobre- carga. Esse fluxo de trabalho baseia-se na teoria das filas, que comprova que a ociosidade no fluxo da fila aumenta a vazão da mesma, e como os itens no quadro kanban são puxados apenas quando há cа- pacidade disponível, o desperdício e a sobrecarga são evitados. Para estimular o fluxo do Kanban e res- peitar os limites, uma frase é muito conhecida no mundo ágil que é: "Pare de começar e comece a
-terminar".
-Transitar de um sistema tradicional empurrado que muitas vezes é predominante no mercado para um sistema puxado é desafiador, porém traz muitas vantagens e ganhos para a organização. Assim como no Manifesto Ágil e no Scrum, o método Kanban também possui seus princípios e práticas que veremos a
-seguir:
+Com o kanban configurado, vamos executar o sistema puxado. Uma vez que exista trabalho no backlog, o profissional de Design "puxa" a atividade para a etapa de Design na coluna "Fazendo", desde que ele não esteja executando nenhuma atividade. Quando ele finalizar essa atividade, moverá a atividade para a coluna de "Pronto". Isso indica que o profissional de Desenvolvimento possui atividade a ser feita, e o profissional de Desenvolvimento "puxa" a atividade do "Pronto" de Design para o "Fazendo" do Desenvolvimento. Esse fluxo segue até a atividade chegar ao "Pronto" à direita do quadro kanban. Os limites em cada etapa servem para controlar o fluxo de trabalho e evitar sobrecarga. Um item só pode transitar entre as etapas se houver espaço para o mesmo.
+
+Consequentemente, em determinado momento algum profissional poderá ficar ocioso, pois ele não poderá "puxar" trabalho, e isso não significa ficar sem trabalhar. Em um sistema Kanban, todos do time são estimulados a olhar para todo o fluxo e tentar contribuir com o valor da atividade mesmo fora da sua etapa, ou até mesmo usar o tempo para pensar em melhorias ou se desenvolver em algum ponto. O importante é que o profissional não fique apenas focado em sua etapa e respeite os limites do quadro kanban, para evitar a geração de estoque e sobrecarga. Esse fluxo de trabalho baseia-se na teoria das filas, que comprova que a ociosidade no fluxo da fila aumenta a vazão da mesma. Como os itens no quadro kanban são puxados apenas quando há capacidade disponível, o desperdício e a sobrecarga são evitados. Para estimular o fluxo do Kanban e respeitar os limites, uma frase é muito conhecida no mundo ágil: "Pare de começar e comece a terminar."
+
+Transitar de um sistema tradicional empurrado, que muitas vezes é predominante no mercado, para um sistema puxado é desafiador, porém traz muitas vantagens e ganhos para a organização. Assim como no Manifesto Ágil e no Scrum, o método Kanban também possui seus princípios e práticas que veremos a seguir:
 
 ## Princípios do Kanban
 
@@ -275,7 +286,7 @@ seguir:
 - **Respeite o processo atual, papéis, responsabilidades e títulos.**
 - **Encoraje atos de liderança em todos os níveis.**
 
-Seguir esses princípios ajudará a colocar em prática o método Kanban, pois identificando o que você tem hoje e respeitando os processos atuais, papéis e responsabilidades, não modificará inicialmente o status quo já existente, porém através de mudanças incrementais e evolucionárias, e com o encoraja- mento de todos, atuaremos na mentalidade do time para conseguir pequenos passos da melhoria conti- nua, porém de forma consistente.
+Seguir esses princípios ajudará a colocar em prática o método Kanban. Identificando o que você tem hoje e respeitando os processos atuais, papéis e responsabilidades, não modificará inicialmente o status quo já existente. No entanto, através de mudanças incrementais e evolucionárias, e com o encorajamento de todos, atuaremos na mentalidade do time para conseguir pequenos passos da melhoria contínua, de forma consistente.
 
 ## Práticas do Kanban
 
@@ -314,6 +325,7 @@ Para o sucesso da implementação do método Kanban, existem **6 práticas** ess
     - Se um item pode ou não voltar para uma coluna anterior após identificação de erro.
 
 **Exemplo quadro kanban**
+
 ![Exemplo quadro kanban](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Exemplo%20quadro%20kanban.png)
 
 ### Raias
@@ -322,6 +334,7 @@ Para o sucesso da implementação do método Kanban, existem **6 práticas** ess
 - Exemplo: *fast-lane* ou *expedite* para atividades urgentes.
 
 **Exemplo quadro kanban com raia**
+
 ![Quadro kanban com raia](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Quadro%20kanban%20com%20raia.png)
 
 ### Cartões
@@ -345,33 +358,35 @@ Para o sucesso da implementação do método Kanban, existem **6 práticas** ess
 
 ## Vantagens do Kanban em Relação ao Scrum
 
+
 ### Múltiplos Focos
 
 - **Scrum**:
     - Requer criação de múltiplos times para diferentes focos (ex: manutenção e desenvolvimento).
 - **Kanban**:
-    - Permite que um único time gerencie múltiplos focos simultaneamente.
+    - Permite que um único time trabalhe em diferentes tipos de demandas simultaneamente, evitando a necessidade de múltiplas equipes. Isso maximiza a eficiência e a flexibilidade do time.
 
-### Entregas Constantes
-
-- **Scrum**:
-    - Estrutura de *sprints* pode dificultar ciclos menores de entrega.
-- **Kanban**:
-    - Flexibilidade para entregas contínuas e mais frequentes.
-
-### Mais Evolutivo
+### Flexibilidade
 
 - **Scrum**:
-    - Requer mudanças iniciais no processo.
-    - Exige times pequenos.
+    - Segue sprints rígidos e ciclos de entrega. A adaptação em meio ao sprint é complexa e, muitas vezes, desencorajada.
 - **Kanban**:
-    - Inicia com o que se tem, sem mudanças drásticas.
-    - Permite evoluções incrementais e adaptativas.
+    - A mudança pode ocorrer a qualquer momento. Os itens podem ser priorizados conforme as necessidades de negócio mudam, permitindo uma adaptação mais ágil às demandas do mercado.
 
----
+### Menos Cerimônias
 
-No fim, a escolha entre **Scrum** e **Kanban** depende das necessidades e particularidades de cada equipe e projeto. O Kanban pode ser mais adequado para times que precisam de flexibilidade e querem evoluir suas práticas de forma gradual, enquanto o Scrum pode ser preferível para equipes que se beneficiam de um framework mais estruturado.
+- **Scrum**:
+    - Requer várias reuniões e cerimônias, como planejamento de sprint, reuniões diárias, revisões e retrospectivas.
+- **Kanban**:
+    - Foca na visualização do trabalho e feedback contínuo, permitindo que as reuniões sejam reduzidas e mais eficientes, com um foco em discussões significativas.
+
+### Melhoria Contínua
+
+- **Scrum**:
+    - A melhoria contínua acontece em retrospectivas, que ocorrem a cada ciclo.
+- **Kanban**:
+    - Promove uma cultura de melhoria contínua através de pequenas iterações, permitindo que o time implemente melhorias constantemente ao longo do fluxo de trabalho.
 
 ## Conclusão
 
-O método **Kanban** é recomendado para times que já conhecem a cultura ágil e precisam trabalhar em escopos de trabalho variados (manutenção, novas funcionalidades, operação). Muitos associam o Kanban a uma evolução do Scrum. Apesar de ser mais leve e menos prescritivo, o Kanban tem maiores chances de sucesso quando completado com as práticas do Scrum, como cerimônias, papéis e responsabilidades, desenvolvimento incremental do produto, trabalho em equipe, priorização de trabalho de acordo com maior valor para o cliente ou produto, entre outros. A junção do framework Scrum e do método Kanban está sendo denominada no mercado como **Scrumban**. Seja qual for a metodologia de desenvolvimento ágil que você for adotar, escolha aquela que mais se adapte ao seu projeto, produto, pessoas e organização.
+A implementação do **Kanban** em um ambiente ágil oferece uma abordagem visual e flexível para gerenciar o fluxo de trabalho e maximizar a eficiência do time. Ao adotar seus princípios e práticas, as equipes podem responder rapidamente às mudanças e melhorar continuamente seus processos. O Kanban não é apenas uma ferramenta, mas uma filosofia que permite às organizações prosperar em ambientes dinâmicos e em constante mudança.
