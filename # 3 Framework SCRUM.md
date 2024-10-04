@@ -245,10 +245,28 @@ Para iniciar o estudo referente ao método Kanban, é necessário diferenciar a 
 
 No modelo corporativo tradicional, a transição de mudanças geralmente ocorre de forma radical dentro de um determinado período de tempo. No entanto, como em qualquer mudança, existe um período de adaptação no qual podem ocorrer possíveis prejuízos até que a nova situação se estabilize e comece a gerar o retorno desejado. Dependendo do nível da mudança proposta, a organização pode não ter uma estrutura adequada para suportá-la e, por isso, optar por reverter a decisão ou, no pior cenário, até mesmo enfrentar a falência. Esse tipo de comportamento organizacional, em que uma mudança radical no status dentro de um período limitado impacta a capacidade da organização, é conhecido como **Kaikaku**.
 
-Para trabalharmos mudanças de forma incremental, sem que o período de adaptação seja muito grande e diminuindo o risco da mudança, temos a abordagem de evolução **Kaizen**, que visa ciclos de iterações e melhorias contínuas referentes à mudança organizacional, com o objetivo de eliminar desperdícios e fazer "hoje melhor do que ontem, amanhã melhor do que hoje!"
+Para trabalharmos mudanças de forma incremental, sem que o período de adaptação seja muito grande e diminuindo o risco da mudança, temos a abordagem de evolução **Kaizen**, que visa ciclos de iterações e melhorias contínuas referentes à mudança organizacional, com o objetivo de eliminar desperdícios e fazer "hoje melhor do que ontem, amanhã melhor do que hoje!" Na figura "Gráfico de Mudança Kaizen Versus Kaikaku" temos um gráfico comparativo entre as duas abordagens:
+
+**Gráfico de mudança Kaikaku**:
+![Gráfico de Mudança Kaikaku](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Gr%C3%A1fico%20de%20Mudan%C3%A7a%20Kaikaku.png)
+
+**Gráfico de mudança Kaizen versus Kaikaku**:
+![Gráfico de Mudança Kaizen versus Kaikaku](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Gr%C3%A1fico%20de%20Mudan%C3%A7a%20Kaizen%20versus%20Kaikaku.png)
 
 Quando falamos sobre metodologias de desenvolvimento ágil, o modelo de **Evolução Kaizen** é altamente aderente e está profundamente enraizado na filosofia dessas metodologias. O método **Kanban** é um ótimo exemplo disso. Ele é composto por um fluxo de valor no qual as etapas de trabalho são mapeadas em um quadro Kanban. As atividades fluem da esquerda para a direita, e cada etapa adiciona uma melhoria de valor ao item. Quando o item chega ao final do quadro, ele estará concluído, entregando valor completo.
+Vamos exemplificar o seguinte cenário, em que para desenvolver um software são necessárias as etapas de levantamento das atividades (backlog), design, desenvolvimento, testes e deploy, o quadro kanban fi- caria assim:
+Mas para realmente conseguirmos trabalhar com o método Kanban, apenas o quadro não é o suficiente, precisamos incrementá-lo com alguns conceitos, primeiramente vamos falar sobre o sistema puxado e empurrado de trabalho.
+O Sistema empurrado faz a produção ser baseada na demanda, onde dada uma quantidade de trabalho X, esse trabalho é "empurrado" para uma equipe que muitas vezes não tem a capacidade para executá- lo, exigindo 100% de ocupação do tempo para o desenvolvimento, para que um grande lote de trabalho seja entregue. Os principais efeitos de um sistema empurrado são a demora para entrega uma vez que todos estão 100% ocupados, e isso não significa 100% de produtividade, sobrecarga de trabalho, entre- gas em grandes lotes, e no pior dos cenários o burnout (exaustão prolongada e a diminuição do inte- resse em trabalhar) dos profissionais.
+O método Kanban trabalha com o conceito de sistema puxado, em que os profissionais "puxam" o traba- Iho a ser feito quando existe capacidade para executá-lo, evitando sobrecargas, uma vez que a capaci- dade é limitada dentro de limites estabelecidos corretamente, para assim prover um equilíbrio entre a ca- pacidade do time e a demanda que o mesmo pode executar. Para facilitar o entendimento, vamos inserir o conceito de sistema puxado no nosso quadro kanban, nas colunas de trabalho, vamos inserir mais duas etapas, o "fazendo" e o "pronto", e, para cada etapa, vamos limitar a capacidade de trabalho possível em
+cada etapa:
 
+![Quadro kanban](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Quadro%20kanban.png)
+![Quadro kanban com sistema puxado](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/quadro%20kanban%20com%20sistema%20puxado.png)
+
+Com o kanban configurado, vamos executar o sistema puxado, uma vez que exista trabalho no backlog, o profissional de Design "puxa" a atividade para a etapa de Design na coluna "Fazendo", desde que ele não esteja executando nenhuma atividade, quando ele finalizar essa atividade, moverá a atividade para a coluna de "Pronto", isso indica que o profissional de Desenvolvimento possui atividade a ser feita, e o profissional de Desenvolvimento "puxa" a atividade do "Pronto" de Design para o "Fazendo" do Desen- volvimento, e assim segue esse fluxo até a atividade chegar ao "Pronto" à direita do quadro kanban. Os limites em cada etapa servem para controlar o fluxo de trabalho e evitar sobrecarga, um item só pode transitar entre as etapas se houver espaço para o mesmo, consequentemente em determinado momento algum profissional poderá ficar ocioso, pois ele não poderá "puxar" trabalho, e isso não significa ficar sem trabalhar, em um sistema Kanban todos do time são estimulados a olhar para todo o fluxo e tentar contribuir com o valor da atividade mesmo fora da sua etapa, ou até mesmo usar o tempo para pensar em melhorias ou se desenvolver em algum ponto, o importante é que o profissional não fique apenas fo- cado em sua etapa e respeite o limites do quadro kanban, para evitar a geração de estoque e sobre- carga. Esse fluxo de trabalho baseia-se na teoria das filas, que comprova que a ociosidade no fluxo da fila aumenta a vazão da mesma, e como os itens no quadro kanban são puxados apenas quando há cа- pacidade disponível, o desperdício e a sobrecarga são evitados. Para estimular o fluxo do Kanban e res- peitar os limites, uma frase é muito conhecida no mundo ágil que é: "Pare de começar e comece a
+terminar".
+Transitar de um sistema tradicional empurrado que muitas vezes é predominante no mercado para um sistema puxado é desafiador, porém traz muitas vantagens e ganhos para a organização. Assim como no Manifesto Ágil e no Scrum, o método Kanban também possui seus princípios e práticas que veremos a
+seguir:
 
 ## Princípios do Kanban
 
@@ -256,6 +274,8 @@ Quando falamos sobre metodologias de desenvolvimento ágil, o modelo de **Evolu�
 - **Concorde em propor mudanças incrementais e evolucionárias.**
 - **Respeite o processo atual, papéis, responsabilidades e títulos.**
 - **Encoraje atos de liderança em todos os níveis.**
+
+Seguir esses princípios ajudará a colocar em prática o método Kanban, pois identificando o que você tem hoje e respeitando os processos atuais, papéis e responsabilidades, não modificará inicialmente o status quo já existente, porém através de mudanças incrementais e evolucionárias, e com o encoraja- mento de todos, atuaremos na mentalidade do time para conseguir pequenos passos da melhoria conti- nua, porém de forma consistente.
 
 ## Práticas do Kanban
 
@@ -293,10 +313,16 @@ Para o sucesso da implementação do método Kanban, existem **6 práticas** ess
 - **Debate na comunidade ágil**:
     - Se um item pode ou não voltar para uma coluna anterior após identificação de erro.
 
+**Exemplo quadro kanban**
+![Exemplo quadro kanban](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Exemplo%20quadro%20kanban.png)
+
 ### Raias
 
 - Raias horizontais para destacar diferentes tipos de atividades.
 - Exemplo: *fast-lane* ou *expedite* para atividades urgentes.
+
+**Exemplo quadro kanban com raia**
+![Quadro kanban com raia](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/Imagens%20diversas/Quadro%20kanban%20com%20raia.png)
 
 ### Cartões
 
