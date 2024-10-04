@@ -120,8 +120,6 @@ No caso de equipes que seguem o modelo **Waterfall**, as atividades são realiza
 
 ## Control Chart - Gráfico de Controle
 
-## Control Chart - Gráfico de Controle
-
 O **Control Chart** (gráfico de controle) é uma ferramenta amplamente utilizada na gestão de processos e na metodologia ágil para monitorar o desempenho de um processo ao longo do tempo. Ele permite visualizar a variação e identificar possíveis desvios no fluxo de trabalho, ajudando as equipes a entender a estabilidade e a capacidade do processo.
 
 ### Componentes do Control Chart
