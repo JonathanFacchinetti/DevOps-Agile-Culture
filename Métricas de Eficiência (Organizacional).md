@@ -237,9 +237,9 @@ Para reduzir a quantidade de problemas notificados, a métrica de **cobertura de
 
 ![Cobertura de Testes](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Qualidade/Cobertura%20de%20Testes.png)
 
-### Métricas tóxicas e de vaidade
+## Métricas tóxicas e de vaidade
 
-## Métricas Tóxicas
+### Métricas Tóxicas
 
 Ao trabalhar com métricas, é essencial tomar cuidado com as chamadas **métricas tóxicas**. Essas métricas têm como objetivo medir o desempenho individual das pessoas ou comparar a performance de diferentes times, o que, inevitavelmente, gera uma **competição não saudável** e **diminui a colaboração** dentro das equipes.
 
@@ -259,7 +259,7 @@ Outro erro comum é utilizar as métricas de um time para **comparar com outro t
 
 ---
 
-## Métricas de Vaidade
+### Métricas de Vaidade
 
 As **métricas de vaidade** são outro tipo de métrica perigosa, pois apresentam números impressionantes que podem ocultar informações mais relevantes ou verdadeiras. Elas criam uma falsa sensação de sucesso e, frequentemente, não levam a ações que realmente melhorem o produto ou processo.
 
