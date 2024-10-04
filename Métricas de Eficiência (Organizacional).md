@@ -206,134 +206,30 @@ dependem de assinaturas, eles podem sofrer um impacto direto nas receitas da org
 ## Métricas de Atmosfera (Cultural)
 
 ### 1. **Turnover**
+As métricas de atmosfera, no domínio cultural, têm o objetivo de medir a satisfação em relação a diversos aspectos da organização, buscando tornar o ambiente cada vez mais saudável para o trabalho. O **turnover** (rotatividade de pessoas) está relacionado ao desligamento de funcionários (seja por demissão ou pedido de demissão) e à entrada de novos para substituição. As razões para o desligamento podem ser diversas, e é importante medir essa taxa para identificar possíveis causas, como:
 
-### O que é Turnover?
-O **Turnover** é a métrica que mede a taxa de rotatividade de funcionários em uma organização. Ele reflete o número de colaboradores que deixam a empresa (seja por decisão própria ou da empresa) em relação ao total de funcionários, durante um período específico.
+- Insatisfação com o trabalho.
+- Problemas na gestão de pessoas.
+- Mercado de trabalho aquecido.
+- Clima organizacional ruim.
+- Inadequação ao perfil da vaga.
 
-### Tipos de Turnover:
-- **Turnover Voluntário**: Quando o colaborador decide deixar a empresa por conta própria.
-- **Turnover Involuntário**: Quando a empresa toma a decisão de desligar o colaborador.
-- **Turnover Funcional**: Quando saídas de colaboradores de baixo desempenho beneficiam a empresa.
-- **Turnover Disfuncional**: Quando a empresa perde colaboradores talentosos ou de alto desempenho.
-
-### Fórmula do Turnover:
-\[
-Turnover = \frac{\text{Número de saídas de colaboradores}}{\text{Número total de colaboradores}} \times 100
-\]
-
-### Exemplo:
-Se uma empresa tem 200 funcionários e 20 deles deixaram a organização em um trimestre, o Turnover seria:
-\[
-Turnover = \frac{20}{200} \times 100 = 10\%
-\]
-
-### Interpretação:
-- **Turnover elevado**: Pode indicar problemas de retenção, como insatisfação com a cultura organizacional, falta de oportunidades de crescimento, ou remuneração inadequada.
-- **Turnover baixo**: Sinaliza uma maior estabilidade e retenção dos colaboradores, o que pode ser reflexo de uma boa gestão de pessoas.
-
----
+Uma alta taxa de turnover impacta negativamente a organização, especialmente quando os funcionários que saem são de alta qualidade ou ocupam cargos-chave, cuja substituição pode levar tempo. Para reduzir o turnover, recomenda-se implementar programas de **onboarding** e **offboarding** eficazes, que integrem os funcionários à empresa, realizar pesquisas de clima organizacional continuamente, e fazer entrevistas de desligamento.
 
 ### 2. **Happiness Radar**
+O **Happiness Radar** (radar da satisfação) contribui para as pesquisas de clima organizacional, com o objetivo de identificar a satisfação dos profissionais em relação à organização. Essa métrica pode incluir diferentes pontos de avaliação, como processos, ferramentas, entregas, equipe, e a empresa como um todo. Nos times ágeis, o Happiness Radar é frequentemente utilizado nas cerimônias de retrospectiva e pode ser tão simples quanto uma pergunta: "Como você está se sentindo hoje?", ou uma dinâmica mais detalhada com um quadro de avaliação de múltiplos aspectos.
 
-### O que é o Happiness Radar?
-O **Happiness Radar** é uma métrica que visa avaliar o nível de satisfação e bem-estar dos colaboradores em relação ao ambiente de trabalho. Ele envolve a coleta de feedback contínuo dos funcionários sobre diversos aspectos da cultura organizacional, como condições de trabalho, relacionamento com a equipe e a liderança, e equilíbrio entre vida pessoal e profissional.
-
-### Como medir?
-O Happiness Radar geralmente é coletado por meio de pesquisas anônimas, em que os colaboradores avaliam sua satisfação em várias áreas utilizando uma escala numérica (por exemplo, de 1 a 5). As áreas de medição podem incluir:
-- **Condições de trabalho**: Como as ferramentas e o espaço de trabalho contribuem para a produtividade.
-- **Cultura organizacional**: Se os valores da empresa estão alinhados com os valores pessoais dos funcionários.
-- **Relacionamento com colegas e liderança**: Como os funcionários percebem a colaboração e o apoio da equipe e dos gestores.
-- **Desenvolvimento profissional**: Oportunidades de crescimento e aprendizado dentro da empresa.
-- **Equilíbrio vida-trabalho**: Se a carga de trabalho permite uma boa qualidade de vida.
-
-### Interpretação:
-- **Happiness alto**: Indica que os colaboradores estão satisfeitos com o ambiente de trabalho, o que pode melhorar a produtividade e reduzir o turnover.
-- **Happiness baixo**: Pode sugerir que os funcionários estão desmotivados, insatisfeitos com a cultura ou com aspectos relacionados ao trabalho, indicando a necessidade de intervenções.
-
-### Benefícios do Happiness Radar:
-- **Melhoria da Cultura**: Permite que a empresa identifique e ajuste fatores que afetam negativamente o clima organizacional.
-- **Aumento da Produtividade**: Funcionários felizes tendem a ser mais engajados e produtivos.
-- **Redução de Turnover**: A satisfação no trabalho é um fator chave na retenção de talentos.
-
-## Métricas de qualidade (técnica)
-
-## 1. **Notificação de Problemas**
-
-### O que é Notificação de Problemas?
-A **Notificação de Problemas** é uma métrica essencial para monitorar a qualidade de um sistema, representando o número de erros, bugs ou falhas detectadas durante o desenvolvimento, testes ou uso em produção. Ela permite que as equipes identifiquem padrões de falhas e áreas críticas que precisam de correção.
-
-### Classificação de Problemas:
-- **Bugs Funcionais**: Erros que afetam diretamente o funcionamento de uma funcionalidade, impedindo seu uso correto.
-- **Bugs de Interface**: Problemas relacionados à experiência do usuário, como elementos de UI quebrados ou mal alinhados.
-- **Erros de Desempenho**: Falhas que resultam em lentidão, uso excessivo de recursos ou queda no desempenho do sistema.
-- **Erros de Segurança**: Vulnerabilidades que podem expor dados sensíveis ou comprometer a integridade do sistema.
-
-### Métricas Relacionadas à Notificação de Problemas:
-1. **Frequência de Erros**: O número de problemas detectados em um período específico. Uma alta frequência pode indicar uma baixa qualidade do código ou processos de desenvolvimento inadequados.
-   
-   Exemplo:
-   - 30 bugs relatados por sprint indicam um alto volume de problemas a serem resolvidos, exigindo maior controle de qualidade no ciclo de desenvolvimento.
-   
-2. **Tempo Médio de Resolução (Mean Time to Resolution - MTTR)**: O tempo médio necessário para resolver um problema após sua notificação.
-   - Um MTTR elevado pode indicar que o time tem dificuldade em solucionar problemas, seja pela complexidade ou pela falta de recursos.
-
-3. **Reincidência de Bugs**: A quantidade de problemas reabertos após serem considerados resolvidos.
-   - Isso pode apontar falhas no processo de validação, onde os testes ou as correções não foram adequados.
-   
-4. **Problemas por Módulo**: A distribuição dos erros por parte do sistema pode mostrar onde estão as áreas mais críticas, indicando módulos que necessitam de refatoração ou maior atenção nos testes.
-
-### Importância da Notificação de Problemas:
-- **Feedback Contínuo**: A análise dos problemas reportados oferece uma visão clara de onde os esforços de melhoria devem ser focados, permitindo priorizar correções e evitar regressões.
-- **Prevenção de Impactos Maiores**: Quanto mais cedo um problema é identificado e notificado, menor é o impacto que ele pode causar em produção.
-- **Qualidade do Produto Final**: Uma boa estratégia de notificação de problemas permite lançar um produto com menos bugs e maior confiança do usuário final.
+Além de realizar o Happiness Radar periodicamente, é essencial manter e analisar o histórico de mudanças, tomando atitudes conforme necessário para contribuir com a melhoria do ambiente e reduzir o turnover.
 
 ---
 
-## 2. **Cobertura de Testes**
+## Métricas de Qualidade (Técnica)
 
-### O que é Cobertura de Testes?
-A **Cobertura de Testes** mede a extensão com que o código-fonte é testado. Quanto maior a cobertura, maior a probabilidade de que erros sejam detectados antes que o código seja lançado em produção. Ela não é uma métrica que garante ausência de bugs, mas sim um indicativo de que uma porção significativa do código está sendo verificada.
+### 1. **Notificação de Problemas**
+Essa métrica refere-se ao número de **bugs** (falhas), defeitos, devoluções de produtos e serviços, bem como o número de chamados ou reclamações. Esses problemas devem ser acompanhados de perto e resolvidos o mais rápido possível. Um problema simples, como uma dúvida sobre o funcionamento de um software, pode gerar custos financeiros para a empresa. Além disso, problemas mais graves, como falhas de segurança, podem expor a organização a prejuízos milionários e afetar negativamente sua imagem no mercado.
 
-### Tipos de Cobertura de Testes:
-1. **Cobertura de Linhas de Código**:
-   - Mede a porcentagem de linhas de código que são executadas durante a execução dos testes automatizados.
-   - Exemplo: Se um projeto tem 10.000 linhas de código e 7.000 são cobertas por testes, a cobertura é de 70%.
-   
-2. **Cobertura de Ramas (Branch Coverage)**:
-   - Verifica se todas as ramificações lógicas (condicionais como `if` e `else`) foram testadas.
-   - Isso é essencial para garantir que todas as condições do código sejam validadas, não apenas os caminhos mais comuns.
-
-3. **Cobertura de Funções/Métodos**:
-   - Mede a porcentagem de funções ou métodos que foram testados em relação ao total existente no código.
-   - Exemplo: Se 80 de 100 métodos foram testados, a cobertura de métodos é de 80%.
-
-4. **Cobertura de Condições**:
-   - Verifica se todas as condições dentro de um bloco de código foram testadas, como múltiplas expressões em uma cláusula `if`.
-
-### Boas Práticas de Cobertura de Testes:
-- **Cobertura Relevante**: Focar na cobertura de testes que realmente validem as regras de negócio e comportamentos críticos, ao invés de tentar atingir 100% de cobertura com testes superficiais.
-  
-- **Testes Automatizados no Pipeline CI/CD**: Integrar a execução de testes automatizados nos pipelines de integração contínua (CI/CD) para garantir que todas as alterações no código sejam validadas antes de entrar em produção.
-
-- **Testes de Unidade e Integração**:
-   - **Testes Unitários**: Garantem que pequenas partes do código, como funções ou métodos individuais, estão funcionando corretamente de forma isolada.
-   - **Testes de Integração**: Validam a interação entre diferentes módulos ou sistemas, garantindo que eles funcionam corretamente quando integrados.
-
-### Métricas de Cobertura de Testes:
-1. **Cobertura Geral**:
-   - Indicador percentual que mostra quanto do código é coberto por qualquer tipo de teste (unitário, integração, funcional).
-   - Exemplo: Uma cobertura geral de 85% sugere que a maioria do código é testada, mas há ainda uma pequena parte não coberta que pode esconder erros.
-
-2. **Cobertura por Módulo/Componente**:
-   - Ao segmentar a cobertura por diferentes partes do sistema (módulos, serviços, APIs), é possível identificar áreas negligenciadas nos testes.
-   
-3. **Testes de Regressão**:
-   - Ao garantir uma boa cobertura de testes, você reduz a chance de regressões (novos bugs introduzidos por mudanças no código).
-
-### Benefícios da Alta Cobertura de Testes:
-- **Maior Confiabilidade**: Uma alta cobertura diminui a chance de bugs não detectados passarem para produção, aumentando a confiança na entrega do software.
-- **Facilita a Manutenção**: A equipe pode fazer mudanças com maior segurança, sabendo que os testes cobrem a maioria dos cenários críticos.
-- **Redução de Custos**: Ao detectar erros mais cedo no ciclo de desenvolvimento, evita-se o custo elevado de corrigir bugs em produção.
+### 2. **Cobertura de Testes**
+Para reduzir a quantidade de problemas notificados, a métrica de **cobertura de testes** é fundamental. Ela indica a porcentagem de código que está coberta por testes automatizados. Uma baixa cobertura pode aumentar os **débitos técnicos** e as chances de comportamentos inesperados, bugs ou vulnerabilidades de segurança. É importante investir no aumento da cobertura de testes, mas isso não garante, por si só, a qualidade do software. Deve-se focar nas funcionalidades principais (core), automatizar sempre que possível, e reduzir a carga de testes manuais.
 
 ### Métricas tóxicas e de vaidade
 
