@@ -160,11 +160,15 @@ Vários projetos podem ser iniciados na empresa e algo que sempre é levantado �
 Imagine que você seja o presidente de uma empresa e receba dois projetos, você deve escolher qual dos dois vai iniciar primeiro: a receita esperada do projeto A é de R$ 1.000.000,00 e o do projeto B é de R$ 500.000,00. Pergunta: qual desses você faria primeiro? A resposta correta depende do valor de investi- mento realizado em cada projeto, se o projeto A necessitar de R$ 800.000,00 de investimento, e o pro- jeto B de R$ 200.000,00, podemos aplicar a seguinte fórmula de ROI:
 
 O ROI é expressado em porcentagem, e dado o cenário anterior, o projeto A teria um retorno de investimento de 25%, enquanto o projeto B traria um retorno de investimento de 150%. Com o ROI podemos tomar melhores decisões, as quais talvez sejam essenciais para a organização, e ele deve ser tratado com uma análise cuidadosa, para ser pos- sível identificar as principais fontes de renda do negócio.
----
+
+![ROI](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Efic%C3%A1cia/ROI.png)
 
 ### NPS (Net Promoter Score)
 
 O **Net Promoter Score (NPS)** é uma métrica utilizada para medir a lealdade e satisfação dos clientes de uma empresa, produto ou serviço. O NPS é baseado em uma única pergunta: "Em uma escala de 0 a 10, qual a probabilidade de você recomendar este produto ou serviço a um amigo ou colega?"
+
+![NPS](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Efic%C3%A1cia/NPS.png)
+
 
 ### Cálculo do NPS:
 1. **Promotores** (nota 9-10): Clientes satisfeitos, dispostos a recomendar.
@@ -173,11 +177,19 @@ O **Net Promoter Score (NPS)** é uma métrica utilizada para medir a lealdade e
 
 Para calcular o NPS, você precisa subtrair a porcentagem de detratores da porcentagem de promotores, calculando, assim, uma pontuação entre -100 e 100.
 
+![Cálculo NPS](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Efic%C3%A1cia/C%C3%A1lculo%20NPS.png)
+
+De acordo com a porcentagem obtida no NPS, podemos classificar a empresa em quatro níveis, que indicam o quão bem ela está em relação à satisfação dos clientes
+
+![BOM NPS](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Efic%C3%A1cia/BOM%20NPS.png)
+
+
 Além de perguntar a pontuação no NPS, você também pode adicionar perguntas extras condicionadas à resposta do entrevistado, para assim colher feedback e conseguir tomar ações:
 
-O resultado varia de -100 a 100. Quanto maior o NPS, melhor é a lealdade e satisfação dos clientes.
+![Perguntas Adicionais NPS](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Efic%C3%A1cia/Perguntas%20Adicionais_NPS.png)
 
----
+O resultado varia de -100 a 100. Quanto maior o NPS, melhor é a lealdade e satisfação dos clientes. Quanto mais alto for o NPS, mais satisfeito estarão os clientes e, consequentemente, mais contribuirão para o crescimento do negócio.
+
 
 ### Churn
 
@@ -188,6 +200,8 @@ cio do mês, e 15 deles abandonaram, a conta seria (15/300)* 100, totalizando um
 
 Um dos principais motivos que levam ao churn é a insatisfação do cliente, ele não vê valor no negócio ou opta pela concorrência, porém algumas ações podem ser tomadas para diminuição do churn, como alinhamento de expectativas, entrega de va- lor esperado pelo cliente, boas experiências, aten- ção aos feedbacks e correção rápida de eventuais problemas e erros. É muito importante medir o churn para reduzi-lo ao máximo, pois, dependendo do modelo de negócio, especialmente aqueles que
 dependem de assinaturas, eles podem sofrer um impacto direto nas receitas da organização
+
+![CHURN](https://github.com/JonathanFacchinetti/DevOps-Agile-Culture/blob/main/Imagens/M%C3%A9tricas%20de%20Efic%C3%A1cia/CHURN.png)
 
 ## Métricas de Atmosfera (Cultural)
 
